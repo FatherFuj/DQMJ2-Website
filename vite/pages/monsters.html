@@ -1,9 +1,11 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../src/components/styles.css">
+    <link rel="stylesheet" href="../src/assets/styles.css">
     <title>Dragon Quest Monster Bestiary</title>
 </head>
 <body>
@@ -63,64 +65,112 @@
 
         <div class="results" id="monsterList" aria-live="polite"></div>
     </div>
+    <script type="module">
+        import { supabase } from '../src/lib/supabase.js'
 
-    <script>
-        let monsters = [];
-        const rankOrder = ['F', 'E', 'D', 'C', 'B', 'A', 'S', 'X'];
+        async function testSupabase() {
+            const { data, error } = await supabase
+                .from('dqmj2_monsters')
+                .select('*')
+                .limit(5)
 
-        const searchInput = document.getElementById('searchName');
-        const sortInput = document.getElementById('sortBy');
-        const familyInput = document.getElementById('familyFilter');
-        const sizeInput = document.getElementById('sizeFilter');
-        const monsterList = document.getElementById('monsterList');
-
-        function compareMonsters(a, b) {
-            if (sortInput.value === 'rank') {
-                const rankA = rankOrder.indexOf(a.rank);
-                const rankB = rankOrder.indexOf(b.rank);
-                const rankDiff = rankA - rankB;
-                return rankDiff || a.name.localeCompare(b.name);
+            if (error) {
+                console.error('Supabase error:', error)
+                return
             }
-            return a.name.localeCompare(b.name);
+
+            console.log('Supabase test data:', data)
         }
 
+        testSupabase()
+
+        let monsters = []
+        const rankOrder = ['F', 'E', 'D', 'C', 'B', 'A', 'S', 'X']
+
+        const searchInput = document.getElementById('searchName')
+        const sortInput = document.getElementById('sortBy')
+        const familyInput = document.getElementById('familyFilter')
+        const sizeInput = document.getElementById('sizeFilter')
+        const monsterList = document.getElementById('monsterList')
+
+        function compareMonsters(a, b) {
+            const sortMode = sortInput.value
+
+            // Normalize fields safely
+            const nameA = (a.name_en ?? "").toLowerCase()
+            const nameB = (b.name_en ?? "").toLowerCase()
+            const rankA = rankOrder.indexOf(a.rank)
+            const rankB = rankOrder.indexOf(b.rank)
+
+            if (sortMode === 'rank') {
+                const rankDiff = rankA - rankB
+
+                // If ranks are equal, sort alphabetically by name_en
+                return rankDiff || nameA.localeCompare(nameB)
+            }
+
+            // Default alphabetical sort by name_en
+            return nameA.localeCompare(nameB)
+        }
+
+
         function renderMonsters() {
-            const searchTerm = searchInput.value.trim().toLowerCase();
-            const familyFilter = familyInput.value;
-            const sizeFilter = sizeInput.value;
+            const searchTerm = searchInput.value.trim().toLowerCase()
+            const familyFilter = familyInput.value
+            const sizeFilter = sizeInput.value
 
             const visibleMonsters = monsters
                 .filter(monster => {
-                    const matchesSearch = monster.name.toLowerCase().includes(searchTerm);
-                    const matchesFamily = familyFilter === 'all' || monster.family === familyFilter;
-                    const matchesSize = sizeFilter === 'all' || monster.size === sizeFilter;
-                    return matchesSearch && matchesFamily && matchesSize;
+                    const name = (monster.name_en ?? "").toLowerCase()
+                    const family = (monster.family ?? "").toLowerCase()
+                    const size = (monster.size ?? "").toLowerCase()
+
+                    const matchesSearch = name.includes(searchTerm)
+                    const matchesFamily = familyFilter === 'all' || family === familyFilter.toLowerCase()
+                    const matchesSize = sizeFilter === 'all' || size === sizeFilter.toLowerCase()
+
+                    return matchesSearch && matchesFamily && matchesSize
                 })
-                .sort(compareMonsters);
+                .sort(compareMonsters)
 
             monsterList.innerHTML = visibleMonsters.length
                 ? visibleMonsters.map(monster => `
                     <article class="monster-card">
                         <div>
-                            <h3>${monster.name}</h3>
+                            <h3>${monster.name_en}</h3>
                             <p class="monster-rank">Rank ${monster.rank}</p>
                         </div>
-                        <p class="monster-description">${monster.description}</p>
+                        <p class="monster-description">${monster.description ?? ''}</p>
                         <div class="monster-meta">
                             <span class="tag">${monster.family}</span>
                             <span class="tag">${monster.size}</span>
                         </div>
                     </article>
                 `).join('')
-                : '<div class="empty-state"><p>No monsters match those filters.</p></div>';
+                : '<div class="empty-state"><p>No monsters match those filters.</p></div>'
         }
 
-        searchInput.addEventListener('input', renderMonsters);
-        sortInput.addEventListener('change', renderMonsters);
-        familyInput.addEventListener('change', renderMonsters);
-        sizeInput.addEventListener('change', renderMonsters);
 
-        renderMonsters();
+        searchInput.addEventListener('input', renderMonsters)
+        sortInput.addEventListener('change', renderMonsters)
+        familyInput.addEventListener('change', renderMonsters)
+        sizeInput.addEventListener('change', renderMonsters)
+
+        async function loadMonsters() {
+            const { data, error } = await supabase
+                .from('dqmj2_monsters')
+                .select('*')
+
+            if (error) {
+                console.error('Error loading monsters:', error)
+                return
+            }
+
+            monsters = data
+            renderMonsters()
+        }
+
+        loadMonsters()
     </script>
 </body>
 </html>
