@@ -17,7 +17,7 @@
     </div>
 
     <script type="module">
-        import { supabase } from '../src/lib/supabase.js'
+        import { supabase, publicStorageUrl } from '../src/lib/supabase.js'
         import { isFavorite, toggleFavorite } from '../src/lib/favorites.js'
 
         const detailContainer = document.getElementById('monsterDetail')
@@ -35,6 +35,7 @@
         function renderDetail(monster) {
             const monsterId = monster.monster_id
             const favoriteState = isFavorite(monsterId)
+            const imagePath = `${publicStorageUrl}/monster-${String(monsterId).padStart(3, '0')}.png`
 
             detailContainer.innerHTML = `
                 <article class="monster-detail-card">
@@ -53,7 +54,15 @@
 
                     <div class="detail-grid">
                         <div class="detail-visual">
-                            <div class="detail-image-placeholder">Monster portrait</div>
+                            <div class="detail-image-window">
+                                <img
+                                    class="detail-image"
+                                    src="${imagePath}"
+                                    alt="${monster.name_en ?? 'Monster'} portrait"
+                                    onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';"
+                                >
+                                <div class="detail-image-placeholder" style="display:none;">Monster portrait</div>
+                            </div>
                         </div>
 
                         <div class="detail-info">

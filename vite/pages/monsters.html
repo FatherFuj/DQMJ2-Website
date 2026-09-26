@@ -66,7 +66,7 @@
         <div class="results" id="monsterList" aria-live="polite"></div>
     </div>
     <script type="module">
-        import { supabase } from '../src/lib/supabase.js'
+        import { supabase, publicStorageUrl } from '../src/lib/supabase.js'
         import { isFavorite, toggleFavorite } from '../src/lib/favorites.js'
         const rankOrder = ['F', 'E', 'D', 'C', 'B', 'A', 'S', 'X']
 
@@ -135,6 +135,8 @@
                 ? visibleMonsters.map(monster => {
                     const monsterId = monster.monster_id
                     const favoriteState = isFavorite(monsterId)
+                    const imagePath = `${publicStorageUrl}/monster-${String(monsterId).padStart(3, '0')}.png`
+
                     return `
                         <article class="monster-card">
                             <div class="monster-card-header">
@@ -151,6 +153,16 @@
                             </div>
 
                             <a class="monster-card-main" href="./monster-detail.html?id=${monsterId}">
+                                <div class="monster-thumb-wrap">
+                                    <img
+                                        class="monster-thumb"
+                                        src="${imagePath}"
+                                        alt="${monster.name_en} thumbnail"
+                                        loading="lazy"
+                                        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                                    >
+                                    <div class="monster-thumb-placeholder" style="display:none;">No image</div>
+                                </div>
                                 <p class="monster-description">${monster.description ?? ''}</p>
                                 <div class="monster-meta">
                                     <span class="tag">${monster.family}</span>
