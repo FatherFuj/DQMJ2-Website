@@ -67,24 +67,7 @@
     </div>
     <script type="module">
         import { supabase } from '../src/lib/supabase.js'
-
-        async function testSupabase() {
-            const { data, error } = await supabase
-                .from('dqmj2_monsters')
-                .select('*')
-                .limit(5)
-
-            if (error) {
-                console.error('Supabase error:', error)
-                return
-            }
-
-            console.log('Supabase test data:', data)
-        }
-
-        testSupabase()
-
-        let monsters = []
+        import { isFavorite, toggleFavorite } from '../src/lib/favorites.js'
         const rankOrder = ['F', 'E', 'D', 'C', 'B', 'A', 'S', 'X']
 
         const searchInput = document.getElementById('searchName')
@@ -92,6 +75,21 @@
         const familyInput = document.getElementById('familyFilter')
         const sizeInput = document.getElementById('sizeFilter')
         const monsterList = document.getElementById('monsterList')
+        let monsters = []
+
+        function normalizeSize(value) {
+            const normalized = String(value ?? '').toUpperCase()
+            const sizeMap = {
+                SMALL: 'S',
+                MEDIUM: 'M',
+                LARGE: 'L',
+                S: 'S',
+                M: 'M',
+                L: 'L'
+            }
+
+            return sizeMap[normalized] ?? normalized
+        }
 
         function compareMonsters(a, b) {
             const sortMode = sortInput.value
@@ -123,31 +121,59 @@
                 .filter(monster => {
                     const name = (monster.name_en ?? "").toLowerCase()
                     const family = (monster.family ?? "").toLowerCase()
-                    const size = (monster.size ?? "").toLowerCase()
+                    const size = normalizeSize(monster.size).toLowerCase()
 
                     const matchesSearch = name.includes(searchTerm)
                     const matchesFamily = familyFilter === 'all' || family === familyFilter.toLowerCase()
-                    const matchesSize = sizeFilter === 'all' || size === sizeFilter.toLowerCase()
+                    const matchesSize = sizeFilter === 'all' || size === normalizeSize(sizeFilter).toLowerCase()
 
                     return matchesSearch && matchesFamily && matchesSize
                 })
                 .sort(compareMonsters)
 
             monsterList.innerHTML = visibleMonsters.length
-                ? visibleMonsters.map(monster => `
-                    <article class="monster-card">
-                        <div>
-                            <h3>${monster.name_en}</h3>
-                            <p class="monster-rank">Rank ${monster.rank}</p>
-                        </div>
-                        <p class="monster-description">${monster.description ?? ''}</p>
-                        <div class="monster-meta">
-                            <span class="tag">${monster.family}</span>
-                            <span class="tag">${monster.size}</span>
-                        </div>
-                    </article>
-                `).join('')
+                ? visibleMonsters.map(monster => {
+                    const monsterId = monster.monster_id
+                    const favoriteState = isFavorite(monsterId)
+                    return `
+                        <article class="monster-card">
+                            <div class="monster-card-header">
+                                <div>
+                                    <h3>${monster.name_en}</h3>
+                                    <p class="monster-rank">Rank ${monster.rank}</p>
+                                </div>
+                                <button
+                                    class="favorite-button ${favoriteState ? 'is-favorite' : ''}"
+                                    type="button"
+                                    data-monster-id="${monsterId}"
+                                    aria-label="${favoriteState ? 'Remove from favorites' : 'Add to favorites'}"
+                                >♥</button>
+                            </div>
+
+                            <a class="monster-card-main" href="./monster-detail.html?id=${monsterId}">
+                                <p class="monster-description">${monster.description ?? ''}</p>
+                                <div class="monster-meta">
+                                    <span class="tag">${monster.family}</span>
+                                    <span class="tag">${monster.size}</span>
+                                </div>
+                            </a>
+                        </article>
+                    `
+                }).join('')
                 : '<div class="empty-state"><p>No monsters match those filters.</p></div>'
+
+            monsterList.querySelectorAll('.favorite-button').forEach((button) => {
+                button.addEventListener('click', (event) => {
+                    event.preventDefault()
+                    event.stopPropagation()
+
+                    const monsterId = Number(button.dataset.monsterId)
+                    const nextState = toggleFavorite(monsterId)
+                    button.classList.toggle('is-favorite', nextState)
+                    button.setAttribute('aria-label', nextState ? 'Remove from favorites' : 'Add to favorites')
+                    button.textContent = '♥'
+                })
+            })
         }
 
 

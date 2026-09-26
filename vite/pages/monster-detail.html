@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/assets/styles.css">
+    <title>Monster Details</title>
+</head>
+<body>
+    <div class="page-shell detail-shell">
+        <nav class="nav-row" aria-label="Monster navigation">
+            <a class="nav-button" href="./monsters.html">Back to Monsters</a>
+            <a class="nav-button" href="./favorites.html">Favorites</a>
+        </nav>
+
+        <main id="monsterDetail" class="monster-detail"></main>
+    </div>
+
+    <script type="module">
+        import { supabase } from '../src/lib/supabase.js'
+        import { isFavorite, toggleFavorite } from '../src/lib/favorites.js'
+
+        const detailContainer = document.getElementById('monsterDetail')
+        const searchParams = new URLSearchParams(window.location.search)
+        const monsterId = Number(searchParams.get('id'))
+
+        function renderNotFound() {
+            detailContainer.innerHTML = `
+                <div class="empty-state">
+                    <p>Monster not found.</p>
+                </div>
+            `
+        }
+
+        function renderDetail(monster) {
+            const monsterId = monster.monster_id
+            const favoriteState = isFavorite(monsterId)
+
+            detailContainer.innerHTML = `
+                <article class="monster-detail-card">
+                    <div class="monster-detail-header">
+                        <div>
+                            <p class="eyebrow">${monster.family ?? 'Unknown family'}</p>
+                            <h1>${monster.name_en ?? 'Unknown monster'}</h1>
+                        </div>
+                        <button
+                            class="favorite-button ${favoriteState ? 'is-favorite' : ''}"
+                            type="button"
+                            data-monster-id="${monsterId}"
+                            aria-label="${favoriteState ? 'Remove from favorites' : 'Add to favorites'}"
+                        >♥</button>
+                    </div>
+
+                    <div class="detail-grid">
+                        <div class="detail-visual">
+                            <div class="detail-image-placeholder">Monster portrait</div>
+                        </div>
+
+                        <div class="detail-info">
+                            <p class="monster-rank">Rank ${monster.rank ?? 'Unranked'}</p>
+                            <div class="monster-meta">
+                                <span class="tag">${monster.family ?? 'Unknown family'}</span>
+                                <span class="tag">${monster.size ?? 'Unknown size'}</span>
+                            </div>
+                            <p class="monster-description">${monster.description ?? 'No description available yet.'}</p>
+                        </div>
+                    </div>
+                </article>
+            `
+
+            const favoriteButton = detailContainer.querySelector('.favorite-button')
+            favoriteButton.addEventListener('click', () => {
+                const nextState = toggleFavorite(monsterId)
+                favoriteButton.classList.toggle('is-favorite', nextState)
+                favoriteButton.setAttribute('aria-label', nextState ? 'Remove from favorites' : 'Add to favorites')
+            })
+        }
+
+        if (!monsterId || Number.isNaN(monsterId)) {
+            renderNotFound()
+        } else {
+            const { data, error } = await supabase
+                .from('dqmj2_monsters')
+                .select('*')
+                .eq('monster_id', monsterId)
+                .single()
+
+            if (error || !data) {
+                renderNotFound()
+                return
+            }
+
+            renderDetail(data)
+        }
+    </script>
+</body>
+</html>

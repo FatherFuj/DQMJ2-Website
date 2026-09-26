@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/assets/styles.css">
+    <title>Favorite Monsters</title>
+</head>
+<body>
+    <div class="page-shell">
+        <header class="page-header">
+            <h1 class="page-title">Favorite Monsters</h1>
+            <p class="page-subtitle">Keep a quick shortlist of the monsters you want to track.</p>
+        </header>
+
+        <nav class="nav-row" aria-label="Page navigation">
+            <a class="nav-button" href="../../index.html">Back to Home</a>
+            <a class="nav-button" href="./monsters.html">Browse Monsters</a>
+        </nav>
+
+        <section class="favorites-toolbar">
+            <p id="favoritesSummary">0 favorite monsters saved.</p>
+            <button class="secondary-button" id="clearFavorites" type="button">Clear all</button>
+        </section>
+
+        <div class="results" id="favoriteList" aria-live="polite"></div>
+    </div>
+
+    <script type="module">
+        import { supabase } from '../src/lib/supabase.js'
+        import { getFavoriteIds, setFavoriteIds } from '../src/lib/favorites.js'
+
+        const favoriteList = document.getElementById('favoriteList')
+        const favoritesSummary = document.getElementById('favoritesSummary')
+        const clearFavoritesButton = document.getElementById('clearFavorites')
+
+        function renderEmptyState() {
+            favoriteList.innerHTML = `
+                <div class="empty-state">
+                    <p>No favorite monsters yet. Add a few from the monster list to start building your roster.</p>
+                </div>
+            `
+            favoritesSummary.textContent = '0 favorite monsters saved.'
+        }
+
+        function renderFavorites(monsters) {
+            if (!monsters.length) {
+                renderEmptyState()
+                return
+            }
+
+            favoritesSummary.textContent = `${monsters.length} favorite monster${monsters.length === 1 ? '' : 's'} saved.`
+
+            favoriteList.innerHTML = monsters.map(monster => {
+                const monsterId = monster.monster_id
+                return `
+                <article class="monster-card">
+                    <div class="monster-card-header">
+                        <div>
+                            <h3>${monster.name_en ?? 'Unknown monster'}</h3>
+                            <p class="monster-rank">Rank ${monster.rank ?? 'Unranked'}</p>
+                        </div>
+                        <button
+                            class="favorite-button is-favorite"
+                            type="button"
+                            data-monster-id="${monsterId}"
+                            aria-label="Remove ${monster.name_en ?? 'monster'} from favorites"
+                        >♥</button>
+                    </div>
+
+                    <a class="monster-card-main" href="./monster-detail.html?id=${monsterId}">
+                        <p class="monster-description">${monster.description ?? 'No description available yet.'}</p>
+                        <div class="monster-meta">
+                            <span class="tag">${monster.family ?? 'Unknown family'}</span>
+                            <span class="tag">${monster.size ?? 'Unknown size'}</span>
+                        </div>
+                    </a>
+                </article>
+            `
+            }).join('')
+
+            favoriteList.querySelectorAll('.favorite-button').forEach((button) => {
+                button.addEventListener('click', async (event) => {
+                    event.preventDefault()
+                    const monsterId = Number(button.dataset.monsterId)
+                    const favoriteIds = getFavoriteIds().filter((id) => id !== monsterId)
+                    setFavoriteIds(favoriteIds)
+                    await loadFavorites()
+                })
+            })
+        }
+
+        async function loadFavorites() {
+            const favoriteIds = getFavoriteIds()
+
+            if (!favoriteIds.length) {
+                renderEmptyState()
+                return
+            }
+
+            const { data, error } = await supabase
+                .from('dqmj2_monsters')
+                .select('*')
+                .in('monster_id', favoriteIds)
+
+            if (error) {
+                console.error('Error loading favorites:', error)
+                renderEmptyState()
+                return
+            }
+
+            renderFavorites(data ?? [])
+        }
+
+        clearFavoritesButton.addEventListener('click', () => {
+            setFavoriteIds([])
+            loadFavorites()
+        })
+
+        loadFavorites()
+    </script>
+</body>
+</html>

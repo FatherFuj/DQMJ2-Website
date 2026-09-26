@@ -116,10 +116,46 @@ body {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
 }
 
-.monster-card h3 {
+.monster-card-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.monster-card-header h3 {
     margin: 0;
     font-size: 1.15rem;
     color: var(--accent-dark);
+}
+
+.monster-card-main {
+    display: grid;
+    gap: 12px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.favorite-button {
+    border: 1px solid rgba(45, 106, 79, 0.2);
+    border-radius: 999px;
+    background: #f4efe8;
+    color: var(--muted);
+    width: 42px;
+    height: 42px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease;
+}
+
+.favorite-button:hover {
+    transform: translateY(-1px);
+}
+
+.favorite-button.is-favorite {
+    background: #f8d7d7;
+    color: #bb3d3d;
+    border-color: rgba(187, 61, 61, 0.25);
 }
 
 .monster-rank {
@@ -172,6 +208,78 @@ body {
     text-align: center;
     color: var(--muted);
     background: rgba(255, 255, 255, 0.7);
+}
+
+.favorites-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 18px;
+    color: var(--muted);
+}
+
+.secondary-button {
+    border: none;
+    border-radius: 10px;
+    background: var(--accent);
+    color: white;
+    padding: 10px 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.secondary-button:hover {
+    background: var(--accent-dark);
+}
+
+.detail-shell {
+    max-width: 1000px;
+}
+
+.monster-detail-card {
+    display: grid;
+    gap: 20px;
+    padding: 24px;
+}
+
+.monster-detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.eyebrow {
+    margin: 0 0 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+    font-size: 0.74rem;
+    font-weight: 700;
+}
+
+.detail-grid {
+    display: grid;
+    grid-template-columns: minmax(200px, 280px) 1fr;
+    gap: 20px;
+    align-items: start;
+}
+
+.detail-image-placeholder {
+    display: grid;
+    place-items: center;
+    aspect-ratio: 1;
+    border-radius: 18px;
+    border: 1px dashed var(--border);
+    background: rgba(45, 106, 79, 0.04);
+    color: var(--muted);
+    font-weight: 700;
+}
+
+.detail-info {
+    display: grid;
+    gap: 14px;
 }
 
 @media (max-width: 840px) {
