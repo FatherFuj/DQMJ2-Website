@@ -3,77 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dragon Quest Monster Joker 2 Monster and Synthesis Guide</title>
+    <title>Dragon Quest Monster Joker 2 Online Guide</title>
     <link rel="stylesheet" href="./src/assets/styles.css">
 </head>
-<body>
-    <main class="page-shell">
-        <h1 class="page-title">Dragon Quest Monster Joker 2 Online Guide</h1>
+<body class="home-body">
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
 
-        <nav class="nav-row" aria-label="Guide navigation">
-            <a class="nav-button" href="/pages/monsters.html">Monsters</a>
-            <a class="nav-button" href="/pages/synthesis.html">Synthesis</a>
-            <a class="nav-button" href="/pages/skills.html">Skills</a>
-            <a class="nav-button" href="/pages/favorites.html">Favorites</a>
-            <a class="nav-button" href="/pages/tips.html">Tips</a>
-        </nav>
+    <main class="page-shell home-shell">
+        <header class="home-hero">
+            <div class="hero-copy">
+                <span class="hero-kicker">Monster Guide</span>
+                <h1 class="page-title home-title">Dragon Quest Monster Joker 2 Online Guide</h1>
+                <p class="page-subtitle home-subtitle">
+                    Explore a living bestiary, discover powerful synthesis paths, and follow the monsters you love with a custom favorite roster.
+                </p>
 
-        <section class="toolbar" aria-label="Search and filter guide content">
-            <div class="search-wrap">
-                <label for="search" class="sr-only" style="position:absolute;left:-9999px;">Search guide</label>
-                <input id="search" type="text" placeholder="Search monsters, skills, or pages...">
+                <div class="hero-actions">
+                    <a class="nav-button home-primary" href="/pages/monsters.html">Explore Monsters</a>
+                    <a class="nav-button home-secondary" href="/pages/favorites.html">View Favorites</a>
+                </div>
             </div>
 
-            <div class="filter-wrap">
-                <label for="filter" class="sr-only" style="position:absolute;left:-9999px;">Filter results</label>
-                <select id="filter">
-                    <option value="all">All Categories</option>
-                    <option value="monsters">Monsters</option>
-                    <option value="synthesis">Synthesis</option>
-                    <option value="skills">Skills</option>
-                    <option value="quests">Favorites</option>
-                </select>
+            <div class="feature-panel" id="featurePanel" aria-live="polite">
+                <div class="feature-badge">Featured Monster</div>
+                <div class="feature-sprite-wrap">
+                    <img id="featureSprite" src="" alt="Featured monster" class="feature-sprite" />
+                </div>
+                <div class="feature-copy">
+                    <p class="feature-label">Random spotlight</p>
+                    <h2 id="featureName">Loading...</h2>
+                    <div class="feature-meta">
+                        <span id="featureRank">Rank --</span>
+                        <span id="featureFamily">Family --</span>
+                    </div>
+                    <p id="featureDescription">Finding a monster of interest...</p>
+                </div>
             </div>
+        </header>
+
+        <section class="dashboard-grid" aria-label="Quick access dashboard">
+            <article class="dashboard-panel" data-category="monsters" data-name="slime monster list">
+                <span class="panel-tag">Bestiary</span>
+                <h3>Monster Archive</h3>
+                <p>Browse every creature in the game and sort by rank, family, and size.</p>
+                <a href="/pages/monsters.html">Open archive</a>
+            </article>
+
+            <article class="dashboard-panel" data-category="synthesis" data-name="synthesis recipes combinations">
+                <span class="panel-tag">Crafting</span>
+                <h3>Synthesis Planner</h3>
+                <p>Plan fusion strategies and discover the strongest combinations.</p>
+                <a href="/pages/synthesis.html">Build combos</a>
+            </article>
+
+            <article class="dashboard-panel" data-category="skills" data-name="skill guide builds">
+                <span class="panel-tag">Battle</span>
+                <h3>Skill Guide</h3>
+                <p>Review powerful abilities and build smarter, more efficient teams.</p>
+                <a href="/pages/skills.html">Learn skills</a>
+            </article>
+
+            <article class="dashboard-panel" data-category="favorites" data-name="favorites">
+                <span class="panel-tag">Tracker</span>
+                <h3>Favorite Roster</h3>
+                <p>Keep your most valuable creatures close and revisit your shortlist anytime.</p>
+                <a href="/pages/favorites.html">Open favorites</a>
+            </article>
         </section>
 
-        <div class="results" id="results">
-            <article class="guide-item" data-category="monsters" data-name="slime monster list">
-                <h3>Monsters</h3>
-                <p>Browse monster stats and locations.</p>
-            </article>
-            <article class="guide-item" data-category="synthesis" data-name="synthesis recipes combinations">
-                <h3>Synthesis</h3>
-                <p>Plan fusion recipes and upgrades.</p>
-            </article>
-            <article class="guide-item" data-category="skills" data-name="skill guide builds">
-                <h3>Skills</h3>
-                <p>Review abilities and team-building tips.</p>
-            </article>
-            <article class="guide-item" data-category="favorites" data-name="favorites">
-                <h3>Favorites</h3>
-                <p>Track your favorite story and optional objectives.</p>
-            </article>
-        </div>
     </main>
 
-    <script>
-        const searchInput = document.getElementById('search');
-        const filterSelect = document.getElementById('filter');
-        const guideItems = Array.from(document.querySelectorAll('.guide-item'));
+    <script type="module">
+        import { supabase, publicStorageUrl } from './src/lib/supabase.js'
 
-        function updateResults() {
-            const query = searchInput.value.toLowerCase().trim();
-            const category = filterSelect.value;
+        const featureName = document.getElementById('featureName');
+        const featureRank = document.getElementById('featureRank');
+        const featureFamily = document.getElementById('featureFamily');
+        const featureDescription = document.getElementById('featureDescription');
+        const featureSprite = document.getElementById('featureSprite');
 
-            guideItems.forEach((item) => {
-                const matchesQuery = item.dataset.name.toLowerCase().includes(query);
-                const matchesCategory = category === 'all' || item.dataset.category === category;
-                item.style.display = matchesQuery && matchesCategory ? 'block' : 'none';
-            });
+        async function loadFeaturedMonster() {
+            const { data, error } = await supabase.from('dqmj2_monsters').select('*');
+
+            if (error || !data || !data.length) {
+                featureName.textContent = 'Monster Archive';
+                featureRank.textContent = 'Rank N/A';
+                featureFamily.textContent = 'Family TBD';
+                featureDescription.textContent = 'Monster data is currently unavailable. Visit the bestiary to explore the roster.';
+                featureSprite.src = 'https://placehold.co/80x80/2d6a4f/ffffff?text=Q';
+                return;
+            }
+
+            const monster = data[Math.floor(Math.random() * data.length)];
+            const monsterId = monster.monster_id;
+            const imagePath = `${publicStorageUrl}/monster-${String(monsterId).padStart(3, '0')}.png`;
+
+            featureName.textContent = monster.name_en ?? 'Unknown Monster';
+            featureRank.textContent = `Rank ${monster.rank ?? 'Unranked'}`;
+            featureFamily.textContent = monster.family ?? 'Unknown family';
+            featureDescription.textContent = monster.description ?? 'A monster from the Dragon Quest bestiary.';
+            featureSprite.src = imagePath;
+            featureSprite.alt = `${monster.name_en ?? 'Monster'} sprite`;
         }
 
-        searchInput.addEventListener('input', updateResults);
-        filterSelect.addEventListener('change', updateResults);
+        loadFeaturedMonster();
     </script>
 </body>
 </html>
