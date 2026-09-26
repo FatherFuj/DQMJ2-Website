@@ -116,6 +116,11 @@ body {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
 }
 
+.favorite-card {
+    position: relative;
+    padding-bottom: 64px;
+}
+
 .monster-card-header {
     display: flex;
     align-items: flex-start;
@@ -167,6 +172,28 @@ body {
     text-transform: uppercase;
     color: var(--muted);
     background: rgba(45, 106, 79, 0.05);
+}
+
+.favorite-card-thumb-wrap {
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+    display: grid;
+    place-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: rgba(45, 106, 79, 0.04);
+    border: 1px solid rgba(45, 106, 79, 0.12);
+    box-shadow: 0 4px 10px rgba(45, 106, 79, 0.08);
+}
+
+.favorite-card-thumb {
+    display: block;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
 }
 
 .favorite-button {

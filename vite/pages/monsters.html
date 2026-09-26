@@ -138,7 +138,7 @@
                     const imagePath = `${publicStorageUrl}/monster-${String(monsterId).padStart(3, '0')}.png`
 
                     return `
-                        <article class="monster-card">
+                        <article class="monster-card favorite-card">
                             <div class="monster-card-header">
                                 <div>
                                     <h3>${monster.name_en}</h3>
@@ -153,22 +153,23 @@
                             </div>
 
                             <a class="monster-card-main" href="./monster-detail.html?id=${monsterId}">
-                                <div class="monster-thumb-wrap">
-                                    <img
-                                        class="monster-thumb"
-                                        src="${imagePath}"
-                                        alt="${monster.name_en} thumbnail"
-                                        loading="lazy"
-                                        onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
-                                    >
-                                    <div class="monster-thumb-placeholder" style="display:none;">No image</div>
-                                </div>
                                 <p class="monster-description">${monster.description ?? ''}</p>
                                 <div class="monster-meta">
                                     <span class="tag">${monster.family}</span>
                                     <span class="tag">${monster.size}</span>
                                 </div>
                             </a>
+
+                            <div class="favorite-card-thumb-wrap">
+                                <img
+                                    class="favorite-card-thumb"
+                                    src="${imagePath}"
+                                    alt="${monster.name_en} thumbnail"
+                                    loading="lazy"
+                                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                                >
+                                <div class="monster-thumb-placeholder" style="display:none;">No image</div>
+                            </div>
                         </article>
                     `
                 }).join('')

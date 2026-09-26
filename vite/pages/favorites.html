@@ -27,7 +27,7 @@
     </div>
 
     <script type="module">
-        import { supabase } from '../src/lib/supabase.js'
+        import { supabase, publicStorageUrl } from '../src/lib/supabase.js'
         import { getFavoriteIds, setFavoriteIds } from '../src/lib/favorites.js'
 
         const favoriteList = document.getElementById('favoriteList')
@@ -53,8 +53,10 @@
 
             favoriteList.innerHTML = monsters.map(monster => {
                 const monsterId = monster.monster_id
+                const imagePath = `${publicStorageUrl}/monster-${String(monsterId).padStart(3, '0')}.png`
+
                 return `
-                <article class="monster-card">
+                <article class="monster-card favorite-card">
                     <div class="monster-card-header">
                         <div>
                             <h3>${monster.name_en ?? 'Unknown monster'}</h3>
@@ -75,6 +77,17 @@
                             <span class="tag">${monster.size ?? 'Unknown size'}</span>
                         </div>
                     </a>
+
+                    <div class="favorite-card-thumb-wrap">
+                        <img
+                            class="favorite-card-thumb"
+                            src="${imagePath}"
+                            alt="${monster.name_en ?? 'Monster'} thumbnail"
+                            loading="lazy"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                        >
+                        <div class="monster-thumb-placeholder" style="display:none;">No image</div>
+                    </div>
                 </article>
             `
             }).join('')
