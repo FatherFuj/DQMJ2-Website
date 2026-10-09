@@ -8,16 +8,22 @@
     <link rel="stylesheet" href="../src/assets/styles.css">
     <title>Dragon Quest Monster Bestiary</title>
 </head>
-<body>
-    <div class="page-shell">
-        <header class="page-header">
-            <h1 class="page-title">Dragon Quest Monster Bestiary</h1>
+<body class="bestiary-body">
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
+    <div class="page-shell bestiary-shell">
+        <header class="page-header bestiary-header">
+            <div>
+                <span class="hero-kicker bestiary-kicker">Bestiary</span>
+                <h1 class="page-title">Dragon Quest Monster Bestiary</h1>
+            </div>
             <p class="page-subtitle">Browse creatures, sort by name or rank, and filter by family and size.</p>
         </header>
 
         <nav class="nav-row" aria-label="Guide navigation">
             <a class="nav-button" href="../../index.html">Back to Home</a>
-            
+            <a class="nav-button" href="./favorites.html">Favorites</a>
         </nav>
 
         <section class="toolbar bestiary-toolbar" aria-label="Monster filters and search">

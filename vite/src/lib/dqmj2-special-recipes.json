@@ -1,0 +1,3391 @@
+{
+  "source": "https://rebjorn-wiki.com/dqmj2/synthesis/special",
+  "recipes": [
+    {
+      "id": "froufry",
+      "result": "Frou-fry",
+      "parents": [
+        {
+          "name": "Argon lizard",
+          "type": "monster"
+        },
+        {
+          "name": "Beast",
+          "type": "family"
+        }
+      ]
+    },
+    {
+      "id": "scissor_beatle",
+      "result": "Scissor beatle",
+      "parents": [
+        {
+          "name": "Yabby",
+          "type": "monster"
+        },
+        {
+          "name": "Scorpion",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "frostburn",
+      "result": "Frostburn",
+      "parents": [
+        {
+          "name": "Dragon slime",
+          "type": "monster"
+        },
+        {
+          "name": "Dancing flame",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "frostburn",
+      "result": "Frostburn",
+      "parents": [
+        {
+          "name": "Silvapithecus",
+          "type": "monster"
+        },
+        {
+          "name": "Dancing flame",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "jargon",
+      "result": "Jargon",
+      "parents": [
+        {
+          "name": "Frou-fry",
+          "type": "monster"
+        },
+        {
+          "name": "Nature",
+          "type": "family"
+        }
+      ]
+    },
+    {
+      "id": "drake_slime",
+      "result": "Drake slime",
+      "parents": [
+        {
+          "name": "Slime",
+          "type": "monster"
+        },
+        {
+          "name": "Dragon",
+          "type": "family"
+        }
+      ]
+    },
+    {
+      "id": "boreal_serpent",
+      "result": "Boreal serpent",
+      "parents": [
+        {
+          "name": "Snowbird",
+          "type": "monster"
+        },
+        {
+          "name": "Jargon",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "boreal_serpent",
+      "result": "Boreal serpent",
+      "parents": [
+        {
+          "name": "Firn fiend",
+          "type": "monster"
+        },
+        {
+          "name": "Ethereal serpent",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "nardragon",
+      "result": "Nardragon",
+      "parents": [
+        {
+          "name": "Komodo",
+          "type": "monster"
+        },
+        {
+          "name": "Material",
+          "type": "family"
+        }
+      ]
+    },
+    {
+      "id": "pan_piper",
+      "result": "Pan piper",
+      "parents": [
+        {
+          "name": "Satyr",
+          "type": "monster"
+        },
+        {
+          "name": "Dingaling",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "dancing_flame",
+      "result": "Dancing flame",
+      "parents": [
+        {
+          "name": "Frostburn",
+          "type": "monster"
+        },
+        {
+          "name": "Firespirit",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "dancing_flame",
+      "result": "Dancing flame",
+      "parents": [
+        {
+          "name": "Spitnik",
+          "type": "monster"
+        },
+        {
+          "name": "Frostburn",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "demonrider",
+      "result": "Demonrider",
+      "parents": [
+        {
+          "name": "Skelegon",
+          "type": "monster"
+        },
+        {
+          "name": "Demon",
+          "type": "family"
+        }
+      ]
+    },
+    {
+      "id": "snapdragon",
+      "result": "Snapdragon",
+      "parents": [
+        {
+          "name": "Dragonthorn",
+          "type": "monster"
+        },
+        {
+          "name": "Undead",
+          "type": "family"
+        }
+      ]
+    },
+    {
+      "id": "snowbird",
+      "result": "Snowbird",
+      "parents": [
+        {
+          "name": "Powie yowie",
+          "type": "monster"
+        },
+        {
+          "name": "Firebird",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "goodybag",
+      "result": "Goodybag",
+      "parents": [
+        {
+          "name": "Bag o' laughs",
+          "type": "monster"
+        },
+        {
+          "name": "Bag o' laughs",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "cannibox",
+      "result": "Cannibox",
+      "parents": [
+        {
+          "name": "Goodybag",
+          "type": "monster"
+        },
+        {
+          "name": "Goodybag",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "skelegon",
+      "result": "Skelegon",
+      "parents": [
+        {
+          "name": "Hacksaurus",
+          "type": "monster"
+        },
+        {
+          "name": "Undead",
+          "type": "family"
+        }
+      ]
+    },
+    {
+      "id": "skelegon",
+      "result": "Skelegon",
+      "parents": [
+        {
+          "name": "Green dragon",
+          "type": "monster"
+        },
+        {
+          "name": "Undead",
+          "type": "family"
+        }
+      ]
+    },
+    {
+      "id": "dessert_demon",
+      "result": "Dessert demon",
+      "parents": [
+        {
+          "name": "Imp",
+          "type": "monster"
+        },
+        {
+          "name": "Dancing devil",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "dragurn",
+      "result": "Dragurn",
+      "parents": [
+        {
+          "name": "Jargon",
+          "type": "monster"
+        },
+        {
+          "name": "Nature",
+          "type": "family"
+        }
+      ]
+    },
+    {
+      "id": "anchorman",
+      "result": "Anchorman",
+      "parents": [
+        {
+          "name": "Dingaling",
+          "type": "monster"
+        },
+        {
+          "name": "Demon",
+          "type": "family"
+        }
+      ]
+    },
+    {
+      "id": "scorpion",
+      "result": "Scorpion",
+      "parents": [
+        {
+          "name": "Crabid",
+          "type": "monster"
+        },
+        {
+          "name": "Nature",
+          "type": "family"
+        }
+      ]
+    },
+    {
+      "id": "gold_golem",
+      "result": "Gold golem",
+      "parents": [
+        {
+          "name": "Golem",
+          "type": "monster"
+        },
+        {
+          "name": "Balhib",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "gold_golem",
+      "result": "Gold golem",
+      "parents": [
+        {
+          "name": "Golem",
+          "type": "monster"
+        },
+        {
+          "name": "Drakularge",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "red_dragon",
+      "result": "Red dragon",
+      "parents": [
+        {
+          "name": "Green dragon",
+          "type": "monster"
+        },
+        {
+          "name": "Beast",
+          "type": "family"
+        }
+      ]
+    },
+    {
+      "id": "brownie",
+      "result": "Brownie",
+      "parents": [
+        {
+          "name": "Hammerhood",
+          "type": "monster"
+        },
+        {
+          "name": "Nature",
+          "type": "family"
+        }
+      ]
+    },
+    {
+      "id": "firn_fiend",
+      "result": "Firn fiend",
+      "parents": [
+        {
+          "name": "Snowbird",
+          "type": "monster"
+        },
+        {
+          "name": "Magmalice",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "beshemoth_slime",
+      "result": "Beshemoth slime",
+      "parents": [
+        {
+          "name": "She-slime",
+          "type": "monster"
+        },
+        {
+          "name": "Behemoth slime",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "slime_x",
+      "result": "Slime X",
+      "parents": [
+        {
+          "name": "Slime",
+          "type": "monster"
+        },
+        {
+          "name": "Slime",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "chimaera_x",
+      "result": "Chimaera X",
+      "parents": [
+        {
+          "name": "Chimaera",
+          "type": "monster"
+        },
+        {
+          "name": "Chimaera",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "goodybag_x",
+      "result": "Goodybag X",
+      "parents": [
+        {
+          "name": "Goodybag",
+          "type": "monster"
+        },
+        {
+          "name": "Goodybag",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "conklave_x",
+      "result": "Conklave X",
+      "parents": [
+        {
+          "name": "Conklave",
+          "type": "monster"
+        },
+        {
+          "name": "Conklave",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "hades_condor",
+      "result": "Hades condor",
+      "parents": [
+        {
+          "name": "Lesser demon",
+          "type": "monster"
+        },
+        {
+          "name": "Beast",
+          "type": "family"
+        }
+      ]
+    },
+    {
+      "id": "great_sabrecat",
+      "result": "Great sabrecat",
+      "parents": [
+        {
+          "name": "Great sabrecub",
+          "type": "monster"
+        },
+        {
+          "name": "Great sabrecub",
+          "type": "monster"
+        },
+        {
+          "name": "Great sabrecub",
+          "type": "monster"
+        },
+        {
+          "name": "Great sabrecub",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "gargoyle",
+      "result": "Gargoyle",
+      "parents": [
+        {
+          "name": "Lesser demon",
+          "type": "monster"
+        },
+        {
+          "name": "Hades condor",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "great_dracky",
+      "result": "Great dracky",
+      "parents": [
+        {
+          "name": "Dracky",
+          "type": "monster"
+        },
+        {
+          "name": "Dracky",
+          "type": "monster"
+        },
+        {
+          "name": "Dracky",
+          "type": "monster"
+        },
+        {
+          "name": "Dracky",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "sea_dragon",
+      "result": "Sea dragon",
+      "parents": [
+        {
+          "name": "Seasaur",
+          "type": "monster"
+        },
+        {
+          "name": "Eveel",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "treeface",
+      "result": "Treeface",
+      "parents": [
+        {
+          "name": "Stump chump",
+          "type": "monster"
+        },
+        {
+          "name": "Stump chump",
+          "type": "monster"
+        },
+        {
+          "name": "Capsichum",
+          "type": "monster"
+        },
+        {
+          "name": "Capsichum",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "king_slime",
+      "result": "King slime",
+      "parents": [
+        {
+          "name": "Behemoth slime",
+          "type": "monster"
+        },
+        {
+          "name": "Behemoth slime",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "hunter_mech",
+      "result": "Hunter mech",
+      "parents": [
+        {
+          "name": "Metal slime knight",
+          "type": "monster"
+        },
+        {
+          "name": "Lethal armour",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "cureslime",
+      "result": "Cureslime",
+      "parents": [
+        {
+          "name": "Healslime",
+          "type": "monster"
+        },
+        {
+          "name": "Beshemoth slime",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "metal_dragon",
+      "result": "Metal dragon",
+      "parents": [
+        {
+          "name": "Red dragon",
+          "type": "monster"
+        },
+        {
+          "name": "Hunter mech",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "metal_dragon",
+      "result": "Metal dragon",
+      "parents": [
+        {
+          "name": "Red dragon",
+          "type": "monster"
+        },
+        {
+          "name": "Metal slime knight",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "diemon",
+      "result": "Diemon",
+      "parents": [
+        {
+          "name": "Winky",
+          "type": "monster"
+        },
+        {
+          "name": "Winky",
+          "type": "monster"
+        },
+        {
+          "name": "Winky",
+          "type": "monster"
+        },
+        {
+          "name": "Winky",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "liquid_metal_slime",
+      "result": "Liquid metal slime",
+      "parents": [
+        {
+          "name": "Metal slime",
+          "type": "monster"
+        },
+        {
+          "name": "Metal slime",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "green_dragon_x",
+      "result": "Green Dragon X",
+      "parents": [
+        {
+          "name": "Green dragon",
+          "type": "monster"
+        },
+        {
+          "name": "Green dragon",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "teeny_sanguini_x",
+      "result": "Teeny Sanguini X",
+      "parents": [
+        {
+          "name": "Teeny sanguini",
+          "type": "monster"
+        },
+        {
+          "name": "Teeny sanguini",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "skeleton_x",
+      "result": "Skeleton X",
+      "parents": [
+        {
+          "name": "Skeleton",
+          "type": "monster"
+        },
+        {
+          "name": "Skeleton",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "great_argon_lizard",
+      "result": "Great argon lizard",
+      "parents": [
+        {
+          "name": "Argon lizard",
+          "type": "monster"
+        },
+        {
+          "name": "Argon lizard",
+          "type": "monster"
+        },
+        {
+          "name": "Argon lizard",
+          "type": "monster"
+        },
+        {
+          "name": "Argon lizard",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "abyss_diver",
+      "result": "Abyss diver",
+      "parents": [
+        {
+          "name": "Seasaur",
+          "type": "monster"
+        },
+        {
+          "name": "Hades condor",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "magmalice",
+      "result": "Magmalice",
+      "parents": [
+        {
+          "name": "Firn fiend",
+          "type": "monster"
+        },
+        {
+          "name": "Firebird",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "lethal_armour",
+      "result": "Lethal armour",
+      "parents": [
+        {
+          "name": "Restless armour",
+          "type": "monster"
+        },
+        {
+          "name": "Octavian sentry",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "lethal_armour",
+      "result": "Lethal armour",
+      "parents": [
+        {
+          "name": "Restless armour",
+          "type": "monster"
+        },
+        {
+          "name": "Lesser demon",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "lethal_armour",
+      "result": "Lethal armour",
+      "parents": [
+        {
+          "name": "Restless armour",
+          "type": "monster"
+        },
+        {
+          "name": "Dancing devil",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "phantom_swordsman",
+      "result": "Phantom swordsman",
+      "parents": [
+        {
+          "name": "Skeleton soldier",
+          "type": "monster"
+        },
+        {
+          "name": "Skeleton soldier",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "fallen_priest",
+      "result": "Fallen priest",
+      "parents": [
+        {
+          "name": "Wrecktor",
+          "type": "monster"
+        },
+        {
+          "name": "Puppeteer",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "grim_rider",
+      "result": "Grim rider",
+      "parents": [
+        {
+          "name": "Demonrider",
+          "type": "monster"
+        },
+        {
+          "name": "Bona constrictor",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "mimic",
+      "result": "Mimic",
+      "parents": [
+        {
+          "name": "Golem",
+          "type": "monster"
+        },
+        {
+          "name": "Cannibox",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "archdemon",
+      "result": "Archdemon",
+      "parents": [
+        {
+          "name": "Moosifer",
+          "type": "monster"
+        },
+        {
+          "name": "Dessert demon",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "archdemon",
+      "result": "Archdemon",
+      "parents": [
+        {
+          "name": "Notso macho",
+          "type": "monster"
+        },
+        {
+          "name": "Dessert demon",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "froufrou",
+      "result": "Frou-frou",
+      "parents": [
+        {
+          "name": "Great argon lizard",
+          "type": "monster"
+        },
+        {
+          "name": "Frou-fry",
+          "type": "monster"
+        },
+        {
+          "name": "Frou-fry",
+          "type": "monster"
+        },
+        {
+          "name": "Frou-fry",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "boss_troll",
+      "result": "Boss troll",
+      "parents": [
+        {
+          "name": "Gigantes",
+          "type": "monster"
+        },
+        {
+          "name": "Diemon",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "boss_troll",
+      "result": "Boss troll",
+      "parents": [
+        {
+          "name": "Gigantes",
+          "type": "monster"
+        },
+        {
+          "name": "Buffalogre",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "boss_troll",
+      "result": "Boss troll",
+      "parents": [
+        {
+          "name": "Diemon",
+          "type": "monster"
+        },
+        {
+          "name": "Buffalogre",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "jamirus",
+      "result": "Jamirus",
+      "parents": [
+        {
+          "name": "Pazuzu",
+          "type": "monster"
+        },
+        {
+          "name": "Gryphon",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "king_cureslime",
+      "result": "King cureslime",
+      "parents": [
+        {
+          "name": "King slime",
+          "type": "monster"
+        },
+        {
+          "name": "King slime",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "heligator",
+      "result": "Heligator",
+      "parents": [
+        {
+          "name": "King squid",
+          "type": "monster"
+        },
+        {
+          "name": "Gracos",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "wailin_weed",
+      "result": "Wailin' weed",
+      "parents": [
+        {
+          "name": "Skeleton soldier",
+          "type": "monster"
+        },
+        {
+          "name": "King kelp",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "wailin_weed",
+      "result": "Wailin' weed",
+      "parents": [
+        {
+          "name": "Phantom swordsman",
+          "type": "monster"
+        },
+        {
+          "name": "King kelp",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "thornella",
+      "result": "Thornella",
+      "parents": [
+        {
+          "name": "Gripevine",
+          "type": "monster"
+        },
+        {
+          "name": "Dorsal fiend",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "thornella",
+      "result": "Thornella",
+      "parents": [
+        {
+          "name": "Gripevine",
+          "type": "monster"
+        },
+        {
+          "name": "Exorsus",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "thornella",
+      "result": "Thornella",
+      "parents": [
+        {
+          "name": "Mortella",
+          "type": "monster"
+        },
+        {
+          "name": "Gripevine",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "thornella",
+      "result": "Thornella",
+      "parents": [
+        {
+          "name": "Gripevine",
+          "type": "monster"
+        },
+        {
+          "name": "Dual duellers",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "killing_machine",
+      "result": "Killing machine",
+      "parents": [
+        {
+          "name": "Phantom swordsman",
+          "type": "monster"
+        },
+        {
+          "name": "Hunter mech",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "killing_machine",
+      "result": "Killing machine",
+      "parents": [
+        {
+          "name": "Mechanowyrm",
+          "type": "monster"
+        },
+        {
+          "name": "Hunter mech",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "killing_machine",
+      "result": "Killing machine",
+      "parents": [
+        {
+          "name": "Ruin",
+          "type": "monster"
+        },
+        {
+          "name": "Hunter mech",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "exorsus",
+      "result": "Exorsus",
+      "parents": [
+        {
+          "name": "Wight king",
+          "type": "monster"
+        },
+        {
+          "name": "Thornella",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "exorsus",
+      "result": "Exorsus",
+      "parents": [
+        {
+          "name": "Wight king",
+          "type": "monster"
+        },
+        {
+          "name": "Mortella",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "exorsus",
+      "result": "Exorsus",
+      "parents": [
+        {
+          "name": "Wight king",
+          "type": "monster"
+        },
+        {
+          "name": "Dual duellers",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "exorsus",
+      "result": "Exorsus",
+      "parents": [
+        {
+          "name": "Wight king",
+          "type": "monster"
+        },
+        {
+          "name": "Dorsal fiend",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "balhib",
+      "result": "Balhib",
+      "parents": [
+        {
+          "name": "Magmalice",
+          "type": "monster"
+        },
+        {
+          "name": "Firn fiend",
+          "type": "monster"
+        },
+        {
+          "name": "Golem",
+          "type": "monster"
+        },
+        {
+          "name": "Gold golem",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "conkettes",
+      "result": "Conkettes",
+      "parents": [
+        {
+          "name": "Mortella",
+          "type": "monster"
+        },
+        {
+          "name": "Conklave",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "conkettes",
+      "result": "Conkettes",
+      "parents": [
+        {
+          "name": "Thornella",
+          "type": "monster"
+        },
+        {
+          "name": "Conklave",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "metal_kaiser_slime",
+      "result": "Metal kaiser slime",
+      "parents": [
+        {
+          "name": "Metal slime knight",
+          "type": "monster"
+        },
+        {
+          "name": "Liquid metal slime",
+          "type": "monster"
+        },
+        {
+          "name": "Metal slime",
+          "type": "monster"
+        },
+        {
+          "name": "Metal slime",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "dual_duellers",
+      "result": "Dual duellers",
+      "parents": [
+        {
+          "name": "Riptide",
+          "type": "monster"
+        },
+        {
+          "name": "Mortella",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "dual_duellers",
+      "result": "Dual duellers",
+      "parents": [
+        {
+          "name": "Riptide",
+          "type": "monster"
+        },
+        {
+          "name": "Exorsus",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "dual_duellers",
+      "result": "Dual duellers",
+      "parents": [
+        {
+          "name": "Riptide",
+          "type": "monster"
+        },
+        {
+          "name": "Dorsal fiend",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "dual_duellers",
+      "result": "Dual duellers",
+      "parents": [
+        {
+          "name": "Thornella",
+          "type": "monster"
+        },
+        {
+          "name": "Riptide",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "riptide",
+      "result": "Riptide",
+      "parents": [
+        {
+          "name": "Jumping jackal",
+          "type": "monster"
+        },
+        {
+          "name": "Heligator",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "mohawker",
+      "result": "Mohawker",
+      "parents": [
+        {
+          "name": "Great sabrecat",
+          "type": "monster"
+        },
+        {
+          "name": "Buffalogre",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "mohawker",
+      "result": "Mohawker",
+      "parents": [
+        {
+          "name": "Wild slime",
+          "type": "monster"
+        },
+        {
+          "name": "Buffalogre",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "mohawker",
+      "result": "Mohawker",
+      "parents": [
+        {
+          "name": "Buffalogre",
+          "type": "monster"
+        },
+        {
+          "name": "Bone baron",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "boe",
+      "result": "Boe",
+      "parents": [
+        {
+          "name": "Boh",
+          "type": "monster"
+        },
+        {
+          "name": "Nature",
+          "type": "family"
+        }
+      ]
+    },
+    {
+      "id": "boe",
+      "result": "Boe",
+      "parents": [
+        {
+          "name": "Jum",
+          "type": "monster"
+        },
+        {
+          "name": "Nature",
+          "type": "family"
+        }
+      ]
+    },
+    {
+      "id": "boe",
+      "result": "Boe",
+      "parents": [
+        {
+          "name": "Mum",
+          "type": "monster"
+        },
+        {
+          "name": "Nature",
+          "type": "family"
+        }
+      ]
+    },
+    {
+      "id": "gracos",
+      "result": "Gracos",
+      "parents": [
+        {
+          "name": "Merman",
+          "type": "monster"
+        },
+        {
+          "name": "Belial",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "gracos",
+      "result": "Gracos",
+      "parents": [
+        {
+          "name": "Octavian sentry",
+          "type": "monster"
+        },
+        {
+          "name": "Belial",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "tortured_soul",
+      "result": "Tortured soul",
+      "parents": [
+        {
+          "name": "Wailin' weed",
+          "type": "monster"
+        },
+        {
+          "name": "Fright knight",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "mortella",
+      "result": "Mortella",
+      "parents": [
+        {
+          "name": "Overkilling machine",
+          "type": "monster"
+        },
+        {
+          "name": "Dorsal fiend",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "mortella",
+      "result": "Mortella",
+      "parents": [
+        {
+          "name": "Overkilling machine",
+          "type": "monster"
+        },
+        {
+          "name": "Dual duellers",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "mortella",
+      "result": "Mortella",
+      "parents": [
+        {
+          "name": "Overkilling machine",
+          "type": "monster"
+        },
+        {
+          "name": "Exorsus",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "mortella",
+      "result": "Mortella",
+      "parents": [
+        {
+          "name": "Thornella",
+          "type": "monster"
+        },
+        {
+          "name": "Overkilling machine",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "garuda",
+      "result": "Garuda",
+      "parents": [
+        {
+          "name": "Heligator",
+          "type": "monster"
+        },
+        {
+          "name": "Hades condor",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "moosifer",
+      "result": "Moosifer",
+      "parents": [
+        {
+          "name": "Satyr",
+          "type": "monster"
+        },
+        {
+          "name": "Buffalogre",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "moosifer",
+      "result": "Moosifer",
+      "parents": [
+        {
+          "name": "Pan piper",
+          "type": "monster"
+        },
+        {
+          "name": "Buffalogre",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "mum",
+      "result": "Mum",
+      "parents": [
+        {
+          "name": "Boe",
+          "type": "monster"
+        },
+        {
+          "name": "Material",
+          "type": "family"
+        }
+      ]
+    },
+    {
+      "id": "mum",
+      "result": "Mum",
+      "parents": [
+        {
+          "name": "Boh",
+          "type": "monster"
+        },
+        {
+          "name": "Material",
+          "type": "family"
+        }
+      ]
+    },
+    {
+      "id": "mum",
+      "result": "Mum",
+      "parents": [
+        {
+          "name": "Jum",
+          "type": "monster"
+        },
+        {
+          "name": "Material",
+          "type": "family"
+        }
+      ]
+    },
+    {
+      "id": "gemon",
+      "result": "Gemon",
+      "parents": [
+        {
+          "name": "Jamirus",
+          "type": "monster"
+        },
+        {
+          "name": "Belial",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "roseguardin",
+      "result": "Roseguardin",
+      "parents": [
+        {
+          "name": "Riptide",
+          "type": "monster"
+        },
+        {
+          "name": "Lethal armour",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "roseguardin",
+      "result": "Roseguardin",
+      "parents": [
+        {
+          "name": "Lethal armour",
+          "type": "monster"
+        },
+        {
+          "name": "Bone baron",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "mechanowyrm",
+      "result": "Mechanowyrm",
+      "parents": [
+        {
+          "name": "Metal dragon",
+          "type": "monster"
+        },
+        {
+          "name": "Great dragon",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "gripevine",
+      "result": "Gripevine",
+      "parents": [
+        {
+          "name": "Marquis de leon",
+          "type": "monster"
+        },
+        {
+          "name": "Hyper Heyedra",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "marquis_de_leon",
+      "result": "Marquis de leon",
+      "parents": [
+        {
+          "name": "Mohawker",
+          "type": "monster"
+        },
+        {
+          "name": "Buffalogre",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "boh",
+      "result": "Boh",
+      "parents": [
+        {
+          "name": "Mum",
+          "type": "monster"
+        },
+        {
+          "name": "Beast",
+          "type": "family"
+        }
+      ]
+    },
+    {
+      "id": "boh",
+      "result": "Boh",
+      "parents": [
+        {
+          "name": "Boe",
+          "type": "monster"
+        },
+        {
+          "name": "Beast",
+          "type": "family"
+        }
+      ]
+    },
+    {
+      "id": "boh",
+      "result": "Boh",
+      "parents": [
+        {
+          "name": "Jum",
+          "type": "monster"
+        },
+        {
+          "name": "Beast",
+          "type": "family"
+        }
+      ]
+    },
+    {
+      "id": "belial",
+      "result": "Belial",
+      "parents": [
+        {
+          "name": "Atlas",
+          "type": "monster"
+        },
+        {
+          "name": "Archdemon",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "belial",
+      "result": "Belial",
+      "parents": [
+        {
+          "name": "Dessert demon",
+          "type": "monster"
+        },
+        {
+          "name": "Archdemon",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "belial",
+      "result": "Belial",
+      "parents": [
+        {
+          "name": "Gold golem",
+          "type": "monster"
+        },
+        {
+          "name": "Archdemon",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "belial",
+      "result": "Belial",
+      "parents": [
+        {
+          "name": "Great dragon",
+          "type": "monster"
+        },
+        {
+          "name": "Archdemon",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "bone_baron",
+      "result": "Bone baron",
+      "parents": [
+        {
+          "name": "Grim rider",
+          "type": "monster"
+        },
+        {
+          "name": "Dark slime knight",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "bone_baron",
+      "result": "Bone baron",
+      "parents": [
+        {
+          "name": "Mohawker",
+          "type": "monster"
+        },
+        {
+          "name": "Grim rider",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "dorsal_fiend",
+      "result": "Dorsal fiend",
+      "parents": [
+        {
+          "name": "Gracos",
+          "type": "monster"
+        },
+        {
+          "name": "Exorsus",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "dorsal_fiend",
+      "result": "Dorsal fiend",
+      "parents": [
+        {
+          "name": "Thornella",
+          "type": "monster"
+        },
+        {
+          "name": "Gracos",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "dorsal_fiend",
+      "result": "Dorsal fiend",
+      "parents": [
+        {
+          "name": "Gracos",
+          "type": "monster"
+        },
+        {
+          "name": "Dual duellers",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "dorsal_fiend",
+      "result": "Dorsal fiend",
+      "parents": [
+        {
+          "name": "Mortella",
+          "type": "monster"
+        },
+        {
+          "name": "Gracos",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "pazuzu",
+      "result": "Pazuzu",
+      "parents": [
+        {
+          "name": "Silvapithecus",
+          "type": "monster"
+        },
+        {
+          "name": "Gigantes",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "pazuzu",
+      "result": "Pazuzu",
+      "parents": [
+        {
+          "name": "Silvapithecus",
+          "type": "monster"
+        },
+        {
+          "name": "Jamirus",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "pazuzu",
+      "result": "Pazuzu",
+      "parents": [
+        {
+          "name": "Silvapithecus",
+          "type": "monster"
+        },
+        {
+          "name": "King squid",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "dierantula",
+      "result": "Dierantula",
+      "parents": [
+        {
+          "name": "Wormonger",
+          "type": "monster"
+        },
+        {
+          "name": "Gripevine",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "metal_king_slime",
+      "result": "Metal king slime",
+      "parents": [
+        {
+          "name": "Liquid metal slime",
+          "type": "monster"
+        },
+        {
+          "name": "Liquid metal slime",
+          "type": "monster"
+        },
+        {
+          "name": "Liquid metal slime",
+          "type": "monster"
+        },
+        {
+          "name": "Liquid metal slime",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "black_dragon",
+      "result": "Black dragon",
+      "parents": [
+        {
+          "name": "Great dragon",
+          "type": "monster"
+        },
+        {
+          "name": "Bone baron",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "beetlebully",
+      "result": "Beetlebully",
+      "parents": [
+        {
+          "name": "Metal king slime",
+          "type": "monster"
+        },
+        {
+          "name": "Beetleboy",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "atlas",
+      "result": "Atlas",
+      "parents": [
+        {
+          "name": "Moosifer",
+          "type": "monster"
+        },
+        {
+          "name": "Gigantes",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "atlas",
+      "result": "Atlas",
+      "parents": [
+        {
+          "name": "Gigantes",
+          "type": "monster"
+        },
+        {
+          "name": "Garuda",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "trap_box",
+      "result": "Trap box",
+      "parents": [
+        {
+          "name": "Mimic",
+          "type": "monster"
+        },
+        {
+          "name": "Mimic",
+          "type": "monster"
+        },
+        {
+          "name": "Cannibox",
+          "type": "monster"
+        },
+        {
+          "name": "Metal kaiser slime",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "dullahan",
+      "result": "Dullahan",
+      "parents": [
+        {
+          "name": "Phantom fencer",
+          "type": "monster"
+        },
+        {
+          "name": "Bone baron",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "dullahan",
+      "result": "Dullahan",
+      "parents": [
+        {
+          "name": "Ruin",
+          "type": "monster"
+        },
+        {
+          "name": "Bone baron",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "dullahan",
+      "result": "Dullahan",
+      "parents": [
+        {
+          "name": "Night knight",
+          "type": "monster"
+        },
+        {
+          "name": "Bone baron",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "shogum",
+      "result": "Shogum",
+      "parents": [
+        {
+          "name": "Metal kaiser slime",
+          "type": "monster"
+        },
+        {
+          "name": "Metal kaiser slime",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "drakulard",
+      "result": "Drakulard",
+      "parents": [
+        {
+          "name": "Drakularge",
+          "type": "monster"
+        },
+        {
+          "name": "Atlas",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "drakulard",
+      "result": "Drakulard",
+      "parents": [
+        {
+          "name": "Pazuzu",
+          "type": "monster"
+        },
+        {
+          "name": "Drakularge",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "king_squid",
+      "result": "King squid",
+      "parents": [
+        {
+          "name": "Yabby",
+          "type": "monster"
+        },
+        {
+          "name": "Gracos",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "king_squid",
+      "result": "King squid",
+      "parents": [
+        {
+          "name": "Night clubber",
+          "type": "monster"
+        },
+        {
+          "name": "Khalamari kid",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "don_mole",
+      "result": "Don Mole",
+      "parents": [
+        {
+          "name": "Mischievous mole",
+          "type": "monster"
+        },
+        {
+          "name": "Mischievous mole",
+          "type": "monster"
+        },
+        {
+          "name": "Night clubber",
+          "type": "monster"
+        },
+        {
+          "name": "Night clubber",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "overkilling_machine",
+      "result": "Overkilling machine",
+      "parents": [
+        {
+          "name": "Balhib",
+          "type": "monster"
+        },
+        {
+          "name": "Balhib",
+          "type": "monster"
+        },
+        {
+          "name": "Killing machine",
+          "type": "monster"
+        },
+        {
+          "name": "Killing machine",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "night_clubber",
+      "result": "Night clubber",
+      "parents": [
+        {
+          "name": "Frou-frou",
+          "type": "monster"
+        },
+        {
+          "name": "Boss troll",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "night_clubber",
+      "result": "Night clubber",
+      "parents": [
+        {
+          "name": "Pazuzu",
+          "type": "monster"
+        },
+        {
+          "name": "Boss troll",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "wight_king",
+      "result": "Wight king",
+      "parents": [
+        {
+          "name": "Tortured soul",
+          "type": "monster"
+        },
+        {
+          "name": "King slime",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "wight_king",
+      "result": "Wight king",
+      "parents": [
+        {
+          "name": "Tortured soul",
+          "type": "monster"
+        },
+        {
+          "name": "King bubble slime",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "alabast_dragon",
+      "result": "Alabast dragon",
+      "parents": [
+        {
+          "name": "Mechanowyrm",
+          "type": "monster"
+        },
+        {
+          "name": "Drakulard",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "darkonium_slime",
+      "result": "Darkonium slime",
+      "parents": [
+        {
+          "name": "Beshemoth slime",
+          "type": "monster"
+        },
+        {
+          "name": "Beshemoth slime",
+          "type": "monster"
+        },
+        {
+          "name": "King cureslime",
+          "type": "monster"
+        },
+        {
+          "name": "Metal king slime",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "dracolord",
+      "result": "Dracolord",
+      "parents": [
+        {
+          "name": "Great dragon",
+          "type": "monster"
+        },
+        {
+          "name": "Demon-at-arms",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "mumbohjumboe",
+      "result": "Mumboh-jumboe",
+      "parents": [
+        {
+          "name": "Mum",
+          "type": "monster"
+        },
+        {
+          "name": "Boh",
+          "type": "monster"
+        },
+        {
+          "name": "Jum",
+          "type": "monster"
+        },
+        {
+          "name": "Boe",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "murdaw",
+      "result": "Murdaw",
+      "parents": [
+        {
+          "name": "Night clubber",
+          "type": "monster"
+        },
+        {
+          "name": "Bjorn",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "baramos",
+      "result": "Baramos",
+      "parents": [
+        {
+          "name": "Hargon",
+          "type": "monster"
+        },
+        {
+          "name": "Gemon",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "hargon",
+      "result": "Hargon",
+      "parents": [
+        {
+          "name": "Dierantula",
+          "type": "monster"
+        },
+        {
+          "name": "Dhuran",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "malroth",
+      "result": "Malroth",
+      "parents": [
+        {
+          "name": "Living statue",
+          "type": "monster"
+        },
+        {
+          "name": "Hargon",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "malroth",
+      "result": "Malroth",
+      "parents": [
+        {
+          "name": "Khalamari",
+          "type": "monster"
+        },
+        {
+          "name": "Hargon",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "malroth",
+      "result": "Malroth",
+      "parents": [
+        {
+          "name": "Hargon",
+          "type": "monster"
+        },
+        {
+          "name": "Buffalogre",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "grandpa_slime",
+      "result": "Grandpa slime",
+      "parents": [
+        {
+          "name": "Metal king slime",
+          "type": "monster"
+        },
+        {
+          "name": "King slime",
+          "type": "monster"
+        },
+        {
+          "name": "King bubble slime",
+          "type": "monster"
+        },
+        {
+          "name": "Metal kaiser slime",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "canzar",
+      "result": "Canzar",
+      "parents": [
+        {
+          "name": "Slime",
+          "type": "monster"
+        },
+        {
+          "name": "Gem slime",
+          "type": "monster"
+        },
+        {
+          "name": "Crabid",
+          "type": "monster"
+        },
+        {
+          "name": "Ruin",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "khalamari",
+      "result": "Khalamari",
+      "parents": [
+        {
+          "name": "Khalamari kid",
+          "type": "monster"
+        },
+        {
+          "name": "Khalamari kid",
+          "type": "monster"
+        },
+        {
+          "name": "King squid",
+          "type": "monster"
+        },
+        {
+          "name": "King squid",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "dhoulmagus",
+      "result": "Dhoulmagus",
+      "parents": [
+        {
+          "name": "Psaro",
+          "type": "monster"
+        },
+        {
+          "name": "Alabast dragon",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "dhoulmagus",
+      "result": "Dhoulmagus",
+      "parents": [
+        {
+          "name": "Estark",
+          "type": "monster"
+        },
+        {
+          "name": "Alabast dragon",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "ruin",
+      "result": "Ruin",
+      "parents": [
+        {
+          "name": "Stormsgate Citadel",
+          "type": "monster"
+        },
+        {
+          "name": "Gold golem",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "ruin",
+      "result": "Ruin",
+      "parents": [
+        {
+          "name": "Mumboh-jumboe",
+          "type": "monster"
+        },
+        {
+          "name": "Gold golem",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "ruin",
+      "result": "Ruin",
+      "parents": [
+        {
+          "name": "Stormsgate Citadel",
+          "type": "monster"
+        },
+        {
+          "name": "Living statue",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "ruin",
+      "result": "Ruin",
+      "parents": [
+        {
+          "name": "Mumboh-jumboe",
+          "type": "monster"
+        },
+        {
+          "name": "Living statue",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "slime_xy",
+      "result": "Slime XY",
+      "parents": [
+        {
+          "name": "Slime X",
+          "type": "monster"
+        },
+        {
+          "name": "Slime X",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "green_dragon_xy",
+      "result": "Green Dragon XY",
+      "parents": [
+        {
+          "name": "Green Dragon X",
+          "type": "monster"
+        },
+        {
+          "name": "Green Dragon X",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "chimaera_xy",
+      "result": "Chimaera XY",
+      "parents": [
+        {
+          "name": "Chimaera X",
+          "type": "monster"
+        },
+        {
+          "name": "Chimaera X",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "teeny_sanguini_xy",
+      "result": "Teeny Sanguini XY",
+      "parents": [
+        {
+          "name": "Teeny Sanguini X",
+          "type": "monster"
+        },
+        {
+          "name": "Teeny Sanguini X",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "goodybag_xy",
+      "result": "Goodybag XY",
+      "parents": [
+        {
+          "name": "Goodybag X",
+          "type": "monster"
+        },
+        {
+          "name": "Goodybag X",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "conklave_xy",
+      "result": "Conklave XY",
+      "parents": [
+        {
+          "name": "Conklave X",
+          "type": "monster"
+        },
+        {
+          "name": "Conklave X",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "skeleton_xy",
+      "result": "Skeleton XY",
+      "parents": [
+        {
+          "name": "Skeleton X",
+          "type": "monster"
+        },
+        {
+          "name": "Skeleton X",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "dragonlord",
+      "result": "Dragonlord",
+      "parents": [
+        {
+          "name": "Dracolord",
+          "type": "monster"
+        },
+        {
+          "name": "Alabast dragon",
+          "type": "monster"
+        },
+        {
+          "name": "Gem slime",
+          "type": "monster"
+        },
+        {
+          "name": "Captain Crow",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "leopold",
+      "result": "Leopold",
+      "parents": [
+        {
+          "name": "Dhoulmagus",
+          "type": "monster"
+        },
+        {
+          "name": "Xenlon",
+          "type": "monster"
+        },
+        {
+          "name": "Baramos",
+          "type": "monster"
+        },
+        {
+          "name": "Chainine",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "leopold",
+      "result": "Leopold",
+      "parents": [
+        {
+          "name": "Dhoulmagus",
+          "type": "monster"
+        },
+        {
+          "name": "Xenlon",
+          "type": "monster"
+        },
+        {
+          "name": "Murdaw",
+          "type": "monster"
+        },
+        {
+          "name": "Chainine",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "leopold",
+      "result": "Leopold",
+      "parents": [
+        {
+          "name": "Dhoulmagus",
+          "type": "monster"
+        },
+        {
+          "name": "Xenlon",
+          "type": "monster"
+        },
+        {
+          "name": "Hargon",
+          "type": "monster"
+        },
+        {
+          "name": "Chainine",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "psaro",
+      "result": "Psaro",
+      "parents": [
+        {
+          "name": "Ruin",
+          "type": "monster"
+        },
+        {
+          "name": "Roseguardin",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "nimzo",
+      "result": "Nimzo",
+      "parents": [
+        {
+          "name": "Khalamari",
+          "type": "monster"
+        },
+        {
+          "name": "Baramos",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "nimzo",
+      "result": "Nimzo",
+      "parents": [
+        {
+          "name": "Drakulard",
+          "type": "monster"
+        },
+        {
+          "name": "Baramos",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "gem_slime",
+      "result": "Gem slime",
+      "parents": [
+        {
+          "name": "Grandpa slime",
+          "type": "monster"
+        },
+        {
+          "name": "Grandpa slime",
+          "type": "monster"
+        },
+        {
+          "name": "Balhib",
+          "type": "monster"
+        },
+        {
+          "name": "Balhib",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "orochi",
+      "result": "Orochi",
+      "parents": [
+        {
+          "name": "Wormonger",
+          "type": "monster"
+        },
+        {
+          "name": "Missing lynx",
+          "type": "monster"
+        },
+        {
+          "name": "Bjorn",
+          "type": "monster"
+        },
+        {
+          "name": "Empyrea",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "trauminator",
+      "result": "Trauminator",
+      "parents": [
+        {
+          "name": "Ruin",
+          "type": "monster"
+        },
+        {
+          "name": "Overkilling machine",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "dr_snapped",
+      "result": "Dr Snapped",
+      "parents": [
+        {
+          "name": "Rhapthorne II",
+          "type": "monster"
+        },
+        {
+          "name": "Darkonium slime",
+          "type": "monster"
+        },
+        {
+          "name": "Orgodemir",
+          "type": "monster"
+        },
+        {
+          "name": "Captain Crow",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "zoma",
+      "result": "Zoma",
+      "parents": [
+        {
+          "name": "Wight king",
+          "type": "monster"
+        },
+        {
+          "name": "Malroth",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "zoma",
+      "result": "Zoma",
+      "parents": [
+        {
+          "name": "Malroth",
+          "type": "monster"
+        },
+        {
+          "name": "Captain Crow",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "zoma",
+      "result": "Zoma",
+      "parents": [
+        {
+          "name": "Malroth",
+          "type": "monster"
+        },
+        {
+          "name": "Dullahan",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "greygnarl",
+      "result": "Greygnarl",
+      "parents": [
+        {
+          "name": "Dragovian lord",
+          "type": "monster"
+        },
+        {
+          "name": "Barbarus",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "trode",
+      "result": "Trode",
+      "parents": [
+        {
+          "name": "Xenlon",
+          "type": "monster"
+        },
+        {
+          "name": "Nokturnus",
+          "type": "monster"
+        },
+        {
+          "name": "Gem slime",
+          "type": "monster"
+        },
+        {
+          "name": "Canzar",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "trode",
+      "result": "Trode",
+      "parents": [
+        {
+          "name": "Xenlon",
+          "type": "monster"
+        },
+        {
+          "name": "Nokturnus",
+          "type": "monster"
+        },
+        {
+          "name": "Gem slime",
+          "type": "monster"
+        },
+        {
+          "name": "Dual duellers",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "trode",
+      "result": "Trode",
+      "parents": [
+        {
+          "name": "Xenlon",
+          "type": "monster"
+        },
+        {
+          "name": "Nokturnus",
+          "type": "monster"
+        },
+        {
+          "name": "Gem slime",
+          "type": "monster"
+        },
+        {
+          "name": "Dorsal fiend",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "sagittar",
+      "result": "Sagittar",
+      "parents": [
+        {
+          "name": "Trauminator",
+          "type": "monster"
+        },
+        {
+          "name": "Overkilling machine",
+          "type": "monster"
+        },
+        {
+          "name": "Killing machine",
+          "type": "monster"
+        },
+        {
+          "name": "Trap box",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "mortamor",
+      "result": "Mortamor",
+      "parents": [
+        {
+          "name": "Nimzo",
+          "type": "monster"
+        },
+        {
+          "name": "Estark",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "orgodemir",
+      "result": "Orgodemir",
+      "parents": [
+        {
+          "name": "Mortamor",
+          "type": "monster"
+        },
+        {
+          "name": "Alabast dragon",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "xenlon",
+      "result": "Xenlon",
+      "parents": [
+        {
+          "name": "Ethereal serpent",
+          "type": "monster"
+        },
+        {
+          "name": "Boreal serpent",
+          "type": "monster"
+        },
+        {
+          "name": "Alabast dragon",
+          "type": "monster"
+        },
+        {
+          "name": "Orochi",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "nokturnus",
+      "result": "Nokturnus",
+      "parents": [
+        {
+          "name": "Dr Snapped",
+          "type": "monster"
+        },
+        {
+          "name": "Dhuran",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "rhapthorne",
+      "result": "Rhapthorne",
+      "parents": [
+        {
+          "name": "Mortamor",
+          "type": "monster"
+        },
+        {
+          "name": "Dhoulmagus",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "rhapthorne",
+      "result": "Rhapthorne",
+      "parents": [
+        {
+          "name": "Nimzo",
+          "type": "monster"
+        },
+        {
+          "name": "Dhoulmagus",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "aquarion",
+      "result": "Aquarion",
+      "parents": [
+        {
+          "name": "Megalodon",
+          "type": "monster"
+        },
+        {
+          "name": "Gracos",
+          "type": "monster"
+        },
+        {
+          "name": "Trode",
+          "type": "monster"
+        },
+        {
+          "name": "Rhapthorne II",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "estark",
+      "result": "Estark",
+      "parents": [
+        {
+          "name": "Psaro",
+          "type": "monster"
+        },
+        {
+          "name": "Marquis de leon",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "rhapthorne_2",
+      "result": "Rhapthorne II",
+      "parents": [
+        {
+          "name": "Zoma",
+          "type": "monster"
+        },
+        {
+          "name": "Rhapthorne",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "rhapthorne_2",
+      "result": "Rhapthorne II",
+      "parents": [
+        {
+          "name": "Rhapthorne",
+          "type": "monster"
+        },
+        {
+          "name": "Orgodemir",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "dragovian_lord",
+      "result": "Dragovian lord",
+      "parents": [
+        {
+          "name": "Rhapthorne II",
+          "type": "monster"
+        },
+        {
+          "name": "Dragonlord",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "great_godbird",
+      "result": "Great godbird",
+      "parents": [
+        {
+          "name": "Empyrea",
+          "type": "monster"
+        },
+        {
+          "name": "Dragovian lord",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "ace_of_spades",
+      "result": "Ace of Spades",
+      "parents": [
+        {
+          "name": "Wulfspade ace",
+          "type": "monster"
+        },
+        {
+          "name": "Leopold",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "wildcard",
+      "result": "Wildcard",
+      "parents": [
+        {
+          "name": "Wulfspade ace",
+          "type": "monster"
+        },
+        {
+          "name": "Great godbird",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "zenith_dragon",
+      "result": "Zenith dragon",
+      "parents": [
+        {
+          "name": "Xenlon",
+          "type": "monster"
+        },
+        {
+          "name": "Nokturnus",
+          "type": "monster"
+        },
+        {
+          "name": "Dracolord",
+          "type": "monster"
+        },
+        {
+          "name": "Sagittar",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "zenith_dragon",
+      "result": "Zenith dragon",
+      "parents": [
+        {
+          "name": "Xenlon",
+          "type": "monster"
+        },
+        {
+          "name": "Nokturnus",
+          "type": "monster"
+        },
+        {
+          "name": "Dracolord",
+          "type": "monster"
+        },
+        {
+          "name": "Aquarion",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "leonyx",
+      "result": "Leonyx",
+      "parents": [
+        {
+          "name": "Wildcard",
+          "type": "monster"
+        },
+        {
+          "name": "Orochi",
+          "type": "monster"
+        },
+        {
+          "name": "Marquis de leon",
+          "type": "monster"
+        },
+        {
+          "name": "Don Mole",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "rigor_mortex",
+      "result": "Rigor Mortex",
+      "parents": [
+        {
+          "name": "Zenith dragon",
+          "type": "monster"
+        },
+        {
+          "name": "Leonyx",
+          "type": "monster"
+        }
+      ]
+    },
+    {
+      "id": "wulfspade",
+      "result": "Wulfspade",
+      "parents": [
+        {
+          "name": "Nature",
+          "type": "family"
+        },
+        {
+          "name": "???",
+          "type": "unknown-family"
+        }
+      ]
+    },
+    {
+      "id": "hawkhart",
+      "result": "Hawkhart",
+      "parents": [
+        {
+          "name": "Demon",
+          "type": "family"
+        },
+        {
+          "name": "???",
+          "type": "unknown-family"
+        }
+      ]
+    },
+    {
+      "id": "cluboon",
+      "result": "Cluboon",
+      "parents": [
+        {
+          "name": "Material",
+          "type": "family"
+        },
+        {
+          "name": "???",
+          "type": "unknown-family"
+        }
+      ]
+    },
+    {
+      "id": "diamagon",
+      "result": "Diamagon",
+      "parents": [
+        {
+          "name": "Beast",
+          "type": "family"
+        },
+        {
+          "name": "???",
+          "type": "unknown-family"
+        }
+      ]
+    },
+    {
+      "id": "wulfspade_ace",
+      "result": "Wulfspade ace",
+      "parents": [
+        {
+          "name": "Nature",
+          "type": "family"
+        },
+        {
+          "name": "???",
+          "type": "unknown-family"
+        }
+      ]
+    },
+    {
+      "id": "hawkhart_ace",
+      "result": "Hawkhart ace",
+      "parents": [
+        {
+          "name": "Demon",
+          "type": "family"
+        },
+        {
+          "name": "???",
+          "type": "unknown-family"
+        }
+      ]
+    },
+    {
+      "id": "cluboon_ace",
+      "result": "Cluboon ace",
+      "parents": [
+        {
+          "name": "Material",
+          "type": "family"
+        },
+        {
+          "name": "???",
+          "type": "unknown-family"
+        }
+      ]
+    },
+    {
+      "id": "diamagon_ace",
+      "result": "Diamagon ace",
+      "parents": [
+        {
+          "name": "Beast",
+          "type": "family"
+        },
+        {
+          "name": "???",
+          "type": "unknown-family"
+        }
+      ]
+    }
+  ]
+}
