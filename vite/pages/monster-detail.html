@@ -96,10 +96,9 @@
 
             if (error || !data) {
                 renderNotFound()
-                return
+            } else {
+                renderDetail(data)
             }
-
-            renderDetail(data)
         }
     </script>
 </body>

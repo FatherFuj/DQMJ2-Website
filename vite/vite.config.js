@@ -13,6 +13,10 @@ export default defineConfig({
     rolldownOptions: {
       input: {
         home: resolve(import.meta.dirname, 'index.html'),
+        monsters: resolve(import.meta.dirname, 'pages/monsters.html'),
+        monsterDetail: resolve(import.meta.dirname, 'pages/monster-detail.html'),
+        favorites: resolve(import.meta.dirname, 'pages/favorites.html'),
+        synthesis: resolve(import.meta.dirname, 'pages/synthesis.html'),
         skills: resolve(import.meta.dirname, 'pages/skills.html'),
       }
     }
