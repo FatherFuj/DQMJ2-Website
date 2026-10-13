@@ -1,3 +1,4 @@
+import { resolve } from 'node:path'
 import { defineConfig } from 'vite'
 import react, { reactCompilerPreset } from '@vitejs/plugin-react'
 import babel from '@rolldown/plugin-babel'
@@ -8,6 +9,14 @@ export default defineConfig({
     react(),
     babel({ presets: [reactCompilerPreset()] })
   ],
+  build: {
+    rolldownOptions: {
+      input: {
+        home: resolve(import.meta.dirname, 'index.html'),
+        skills: resolve(import.meta.dirname, 'pages/skills.html'),
+      }
+    }
+  },
   test: {
     environment: 'jsdom',
     globals: true,

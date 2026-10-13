@@ -1,0 +1,2 @@
+[  235004ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://127.0.0.1:5173/pages/skills.html?html-proxy&index=0.js:0
+[  239323ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://127.0.0.1:5173/pages/skills.html?html-proxy&index=0.js:0

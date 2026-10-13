@@ -3,10 +3,467 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../src/components/styles.css">
-    <title>Skills</title>
+    <link rel="stylesheet" href="../src/assets/styles.css">
+    <title>Skills | DQMJ2 Guide</title>
 </head>
-<body>
-    <p1>Filler</p1>
+<body class="skills-body">
+    <main class="page-shell skills-shell">
+        <header class="skills-header">
+            <div>
+                <h1 class="page-title skills-title">Skill Index</h1>
+                <p class="page-subtitle skills-subtitle">All 158 skillsets from DQMJ2. Expanded details load from the Dragon Quest Wiki and require an internet connection.</p>
+            </div>
+            <a class="home-link skills-home" href="../index.html">Home</a>
+        </header>
+
+        <section class="skills-controls" aria-label="Search skillsets">
+            <label class="sr-only" for="skillSearch">Search skillsets by name</label>
+            <span class="skills-search-icon" aria-hidden="true">⌕</span>
+            <input id="skillSearch" type="search" placeholder="Search skillsets by name..." autocomplete="off">
+            <p class="skills-result-count" id="skillResultCount" role="status" aria-live="polite"></p>
+        </section>
+
+        <ol class="skill-list" id="skillList" aria-label="Dragon Quest Monsters: Joker 2 skillsets"></ol>
+    </main>
+
+    <script type="module">
+        import skills from '../src/lib/dqmj2-skills.json'
+
+        const wikiTitleOverrides = {
+            Antimagic: 'Antimagic (skill)',
+            Aquarion: 'Aquarion (skill)',
+            Assassin: 'Assassin (Talent)',
+            Berserker: 'Berserker (skill)',
+            Bjorn: 'Bjorn (skill)',
+            Canzar: 'Canzar (skill)',
+               Breath: 'Breath (skill)',
+            'Captain Crow': 'Captain Crow (skill)',
+            Champion: 'Champion (skill)',
+            Cleric: 'Cleric (Talent)',
+            Cluboon: 'Cluboon (skill)',
+            Diamagon: 'Diamagon (skill)',
+            'Dorsal fiend': 'Dorsal fiend (skill)',
+            'Dr. Snapped': 'Dr. Snapped (skill)',
+            Dragonlord: 'Dragonlord (skill)',
+            'Dragovian Lord': 'Dragovian Lord (skill)',
+               Dancer: 'Dancer (Talent)',
+               Dhoulmagus: 'Dhoulmagus (Talent)',
+            'Dual duellers': 'Dual duellers (skill)',
+            Empyrea: 'Empyrea (skill)',
+            Estark: 'Estark (Talent)',
+            Exorsus: 'Exorsus (skill)',
+            Fire: 'Fire (skillset)',
+            'Great godbird': 'Great godbird (skill)',
+            Hawkhart: 'Hawkhart (skill)',
+            Healer: 'Healer (Skill)',
+            Ice: 'Ice (skillset)',
+            Khalamari: 'Khalamari (skill)',
+            Leonyx: 'Leonyx (skill)',
+            Leopold: 'Leopold (skill)',
+            Mage: 'Mage (skill)',
+            'Martial Artist': 'Martial Artist (skill)',
+            'Missing lynx': 'Missing lynx (skill)',
+            Mortamor: 'Mortamor (skill)',
+            Mortella: 'Mortella (skill)',
+            Nightmare: 'Nightmare (skill)',
+            Nimzo: 'Nimzo (skill)',
+            Orochi: 'Orochi (skill)',
+            Priest: 'Priest (skill)',
+            Reaper: 'Reaper (skill)',
+            Rhapthorne: 'Rhapthorne (skill)',
+            'Rigor Mortex': 'Rigor Mortex (skill)',
+            Sagittar: 'Sagittar (skill)',
+               Ruin: 'Ruin (skill)',
+               Sage: 'Sage (skill)',
+            'Stormsgate Citadel': 'Stormsgate Citadel (skill)',
+            Thief: 'Thief (skill)',
+            Toughie: 'Toughie (skill)',
+            Trickster: 'Trickster (skillset)',
+               Thornella: 'Thornella (skill)',
+            Warrior: 'Warrior (skill)',
+            Wildcard: 'Wildcard (skill)',
+            Wormonger: 'Wormonger (skill)',
+            Wulfspade: 'Wulfspade (Skill)',
+            Zoma: 'Zoma (skill)'
+        }
+
+        const joker2UnlockOverrides = {
+            Aquapothecary: [
+                { from: 'Crack', to: 'Waterspout', group: 'Aquapothecary', points: '10' },
+                { from: 'Crackle', to: 'Geyser', group: 'Aquapothecary', points: '45' },
+                { from: 'Water Guard', to: 'Magic Regenerator', group: 'Aquapothecary' }
+            ],
+            'Bounty Hunter': [
+                { from: 'Dodgy Dance', to: 'Material Whirl', points: '10' }
+            ],
+            'Boom Boxer': [
+                { from: 'Bomb Slash', to: 'Beast Bopper', points: '18' },
+                { from: 'War Cry', to: 'Squelch', points: '34' },
+                { from: 'Bang Guard', to: 'HP Roulette' }
+            ],
+            'Captain Crow': [
+                { from: 'Thunderbolt Slash', to: 'Tacticlamp', points: '35' }
+            ],
+            Champion: [
+                { from: 'Body Slam', to: 'Demon Demeaner' },
+                { from: 'Hatchet Man', to: 'Undead Undoer' }
+            ],
+            Cluboon: [
+                { from: "Stone's Throw", to: 'Boulder Dash', group: 'Cluboon', points: '12' },
+                { from: 'Earth Guard', to: 'Master of Weapons', group: 'Cluboon' },
+                { from: 'Earth Guard', to: 'Sleepy Touch', group: 'Cluboon II' },
+                { from: 'Bang Guard', to: 'Inaction Guard', group: 'Cluboon II' }
+            ],
+            'Diamagon': [
+                { from: 'Water Guard', to: 'Metal Beater', group: 'Diamagon' },
+                { from: 'Water Guard', to: 'Paralyzing Touch', group: 'Diamagon II' },
+                { from: 'Crack Guard', to: 'Paralyzing Guard', group: 'Diamagon II' }
+            ],
+            Diminisher: [
+                { from: 'Helm Splitter', to: 'Blade Blunter', points: '40' },
+                { from: "Assassin's Stab", to: 'Abiliterator' }
+            ],
+            Dragonlord: [
+                { from: 'Fullheal', to: 'Megaheal' }
+            ],
+            Fire: [
+                { from: 'Frizz Guard', to: 'Blade Blunter Guard', group: 'Fire II' },
+                { from: 'Frizz Guard', to: 'Abiliterator Guard', group: 'Fire III' }
+            ],
+            Hawkhart: [
+                { from: 'Fire Guard', to: 'Magic Regenerator', group: 'Hawkhart' },
+                { from: 'Fire Guard', to: 'Confusing Touch', group: 'Hawkhart II' },
+                { from: 'Frizz Guard', to: 'Ban Dance Guard', group: 'Hawkhart II' }
+            ],
+            Healer: [
+                { from: 'Fullheal', to: 'Megaheal' }
+            ],
+            'Hive Mind': [
+                { from: 'Kasnooze', to: 'Nature Nerfer', points: '50' }
+            ],
+            Huntsman: [
+                { from: 'Uncarnate', to: 'Slime Dunk', points: '80' },
+                { from: "Assassin's Stab", to: 'Mysterian Mauler', points: '100' }
+            ],
+            Icemeister: [
+                { from: 'Frost Slash', to: 'Nature Nerfer' },
+                { from: 'Crack Guard', to: 'Agility Roulette' }
+            ],
+            Ice: [
+                { from: 'Crack Guard', to: 'Blade Blunter Guard', group: 'Ice III' }
+            ],
+            'Mage Aid': [
+                { from: 'Accelerate', to: 'Hocus Locust', points: '10' },
+                { from: 'Ping', to: 'Magic Multiplier', points: '38' }
+            ],
+            Mage: [
+                { from: 'Magic Regenerator', to: 'Frizz Cracker' }
+            ],
+            Mime: [
+                { from: 'Follow Suit', to: 'Ban Dance Guard', points: '100' }
+            ],
+            Leopold: [
+                { from: 'Uncarnate', to: 'Mysterian Mauler' }
+            ],
+            Naturalist: [
+                { from: 'Uncarnate', remove: true },
+                { ability: 'Mysterian Mauler', points: '57' },
+                { from: 'Hatchet Man', fromPoints: '83', points: '75' }
+            ],
+            Niflheim: [
+                { from: 'Crack', to: 'Undead Undoer', points: '24' },
+                { from: 'Crackle', to: 'Lingering Malhaze', points: '56' }
+            ],
+            Priest: [
+                { from: 'Magic Regenerator', to: 'Pearly Gates' }
+            ],
+            Reaper: [
+                { from: 'Zam', to: 'Demon Demeaner', points: '8' },
+                { from: 'Zammle', to: "Assassin's Stab", points: '53' }
+            ],
+            'Über Mage': [
+                { from: 'Magic Scrooge', to: 'Kasizzle' }
+            ],
+            'Über Knight': [
+                { from: 'Thunderbolt Slash', to: 'Singeing Slash', points: '32' }
+            ],
+            'White Knight': [
+                { from: 'Hallowed Slash', to: 'Material Whirl' },
+                { from: 'Zap Guard', to: 'Wisdom Roulette' }
+            ],
+            'Wind Blower': [
+                { from: 'Gust Slash', to: 'Demon Demeaner' },
+                { from: 'Slowing Slug', to: 'Wind Sickles' }
+            ],
+            Wulfspade: [
+                { from: 'Lightning Slash', to: 'Charring Slash', group: 'Wulfspade' },
+                { from: 'Lightning Guard', to: 'Steady Recovery', group: 'Wulfspade' },
+                { from: 'Thunderbolt Slash', to: 'Singeing Slash', group: 'Wulfspade II' },
+                { from: 'Lightning Guard', to: 'Poisonous Touch', group: 'Wulfspade II' },
+                { from: 'Zap Guard', to: 'Dazzle Guard', group: 'Wulfspade II' },
+                { ability: 'Abiliterator Guard', points: '100', group: 'Wulfspade III' }
+            ]
+        }
+
+        const searchInput = document.getElementById('skillSearch')
+        const skillList = document.getElementById('skillList')
+        const resultCount = document.getElementById('skillResultCount')
+
+        function getTableName(table, skill) {
+            let sibling = table.previousElementSibling
+
+            while (sibling) {
+                if (/^H[2-5]$/.test(sibling.tagName)) {
+                    const heading = sibling.textContent.replace('[edit]', '').trim()
+                    return heading.startsWith('Dragon Quest Monsters: Joker') ? skill : heading
+                }
+
+                sibling = sibling.previousElementSibling
+            }
+
+            return skill
+        }
+
+        function isUnlockTable(table) {
+            const headers = [...table.querySelectorAll('th')]
+                .map(header => header.textContent.trim().toLowerCase())
+                .join(' ')
+
+            return headers.includes('ability') && headers.includes('skill points')
+        }
+
+        function parseUnlocks(table) {
+            return [...table.querySelectorAll('tr')]
+                .map(row => [...row.querySelectorAll('td')].map(cell => cell.textContent.trim()))
+                .filter(cells => cells.length >= 2 && cells[0] && cells[1])
+                .map(([ability, points]) => ({ ability, points }))
+        }
+
+        function applyJoker2Overrides(groups, skill) {
+            for (const change of joker2UnlockOverrides[skill] ?? []) {
+                const preferredGroups = change.group
+                    ? groups.filter(group => group.name === change.group)
+                    : groups
+                const targetGroups = preferredGroups.length ? preferredGroups : groups
+                let updated = false
+
+                if (change.from) {
+                    for (const group of targetGroups) {
+                        const index = group.unlocks.findIndex(unlock =>
+                            unlock.ability === change.from && (!change.fromPoints || unlock.points === change.fromPoints)
+                        )
+
+                        if (index < 0) {
+                            continue
+                        }
+
+                        if (change.remove) {
+                            group.unlocks.splice(index, 1)
+                        } else {
+                            group.unlocks[index].ability = change.to ?? change.from
+                            group.unlocks[index].points = change.points ?? group.unlocks[index].points
+                        }
+
+                        updated = true
+                        break
+                    }
+                }
+
+                if (!updated && change.ability) {
+                    const group = targetGroups[0]
+                    if (group) {
+                        group.unlocks.push({ ability: change.ability, points: change.points })
+                    }
+                }
+            }
+        }
+
+        function getEditionSection(document) {
+            const headings = [...document.querySelectorAll('h2, h3, h4, h5')]
+            const heading = headings.find(item => item.textContent.includes('Dragon Quest Monsters: Joker 2'))
+
+            if (!heading) {
+                return { heading: null, nodes: [] }
+            }
+
+            const level = Number(heading.tagName.slice(1))
+            const nodes = []
+            let sibling = heading.nextElementSibling
+
+            while (sibling && !(/^H[2-5]$/.test(sibling.tagName) && Number(sibling.tagName.slice(1)) <= level)) {
+                nodes.push(sibling)
+                sibling = sibling.nextElementSibling
+            }
+
+            return { heading, nodes }
+        }
+
+        function collectUnlockGroups(document, editionSection, skill) {
+            const allTables = [...document.querySelectorAll('table')].filter(isUnlockTable)
+            const editionTables = editionSection.nodes.flatMap(node => [
+                ...(node.matches?.('table') ? [node] : []),
+                ...(node.querySelectorAll?.('table') ?? [])
+            ]).filter(isUnlockTable)
+            const baseTables = editionSection.heading
+                ? allTables.filter(table => table.compareDocumentPosition(editionSection.heading) & Node.DOCUMENT_POSITION_FOLLOWING)
+                : allTables
+            const groups = new Map()
+
+            for (const table of baseTables) {
+                const name = getTableName(table, skill)
+                groups.set(name, { name, unlocks: parseUnlocks(table) })
+            }
+
+            for (const table of editionTables) {
+                const beforeTable = table.previousElementSibling?.textContent ?? ''
+                const name = [...groups.keys()]
+                    .sort((left, right) => right.length - left.length)
+                    .find(groupName => beforeTable.includes(groupName))
+                    ?? (groups.size === 1 ? groups.keys().next().value : `${skill} · Joker 2`)
+
+                groups.set(name, { name, unlocks: parseUnlocks(table) })
+            }
+
+            const unlockGroups = [...groups.values()].filter(group => group.unlocks.length)
+            applyJoker2Overrides(unlockGroups, skill)
+            return unlockGroups
+        }
+
+        function renderUnlocks(panel, groups, notes, sourceUrl) {
+            panel.replaceChildren()
+
+            if (groups.length) {
+                for (const group of groups) {
+                    const section = document.createElement('section')
+                    const heading = document.createElement('h4')
+                    const list = document.createElement('ul')
+
+                    section.className = 'skill-unlock-group'
+                    heading.className = 'skill-unlock-heading'
+                    heading.textContent = group.name
+                    list.className = 'skill-unlock-list'
+
+                    for (const unlock of group.unlocks) {
+                        const item = document.createElement('li')
+                        const ability = document.createElement('span')
+                        const points = document.createElement('span')
+
+                        ability.textContent = unlock.ability
+                        points.className = 'skill-unlock-points'
+                        points.textContent = `${unlock.points} pts`
+                        item.append(ability, points)
+                        list.append(item)
+                    }
+
+                    section.append(heading, list)
+                    panel.append(section)
+                }
+            } else {
+                const emptyState = document.createElement('p')
+                emptyState.className = 'skill-detail-message'
+                emptyState.textContent = 'No unlock table is available for this entry.'
+                panel.append(emptyState)
+            }
+
+            if (notes) {
+                const note = document.createElement('p')
+                note.className = 'skillset-note'
+                note.textContent = notes
+                panel.append(note)
+            }
+
+            const source = document.createElement('a')
+            source.className = 'skill-source-link'
+            source.href = sourceUrl
+            source.target = '_blank'
+            source.rel = 'noreferrer'
+            source.textContent = 'Dragon Quest Wiki source'
+            panel.append(source)
+        }
+
+        async function loadSkillDetails(skill, details, panel) {
+            const pageTitle = wikiTitleOverrides[skill] ?? skill
+            const sourceUrl = `https://dragon-quest.org/wiki/${encodeURIComponent(pageTitle.replaceAll(' ', '_'))}`
+            const query = new URLSearchParams({
+                action: 'parse',
+                page: pageTitle,
+                prop: 'text',
+                format: 'json',
+                origin: '*'
+            })
+
+            panel.textContent = 'Loading abilities...'
+
+            try {
+                const response = await fetch(`https://dragon-quest.org/w/api.php?${query}`)
+                if (!response.ok) {
+                    throw new Error(`Skill data request failed (${response.status}).`)
+                }
+
+                const data = await response.json()
+                if (data.error || !data.parse?.text?.['*']) {
+                    throw new Error(data.error?.info ?? 'Skill data is unavailable.')
+                }
+
+                const document = new DOMParser().parseFromString(data.parse.text['*'], 'text/html')
+                const editionSection = getEditionSection(document)
+                const editionNotes = editionSection.nodes
+                    .filter(node => node.tagName === 'P')
+                    .map(node => node.textContent.trim())
+                    .filter(Boolean)
+                    .join(' ')
+
+                renderUnlocks(panel, collectUnlockGroups(document, editionSection, skill), editionNotes, sourceUrl)
+                details.dataset.loaded = 'true'
+            } catch (error) {
+                panel.textContent = `${error.message} Close and reopen this skillset to retry.`
+                panel.classList.add('skill-detail-message')
+            }
+        }
+
+        function renderSkills() {
+            const searchTerm = searchInput.value.trim().toLowerCase()
+            const matches = skills.filter(skill => skill.toLowerCase().includes(searchTerm))
+            const fragment = document.createDocumentFragment()
+
+            matches.forEach((skill, index) => {
+                const item = document.createElement('li')
+                const details = document.createElement('details')
+                const summary = document.createElement('summary')
+                const number = document.createElement('span')
+                const name = document.createElement('span')
+                const panel = document.createElement('div')
+
+                item.className = 'skill-entry'
+                details.className = 'skill-disclosure'
+                summary.className = 'skill-summary'
+                number.className = 'skill-entry-number'
+                number.textContent = String(index + 1).padStart(3, '0')
+                name.className = 'skill-entry-name'
+                name.textContent = skill
+                panel.className = 'skill-detail-panel'
+                summary.append(number, name)
+                details.append(summary, panel)
+                details.addEventListener('toggle', () => {
+                    if (details.open && details.dataset.loaded !== 'true' && details.dataset.loading !== 'true') {
+                        details.dataset.loading = 'true'
+                        loadSkillDetails(skill, details, panel).finally(() => {
+                            delete details.dataset.loading
+                        })
+                    }
+                })
+                item.append(details)
+                fragment.append(item)
+            })
+
+            skillList.replaceChildren(fragment)
+            resultCount.textContent = matches.length
+                ? `Showing ${matches.length} of ${skills.length} skillsets`
+                : 'No skillsets match that name.'
+        }
+
+        searchInput.addEventListener('input', renderSkills)
+        renderSkills()
+    </script>
 </body>
 </html>

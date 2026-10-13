@@ -1,0 +1,962 @@
+- main [ref=f14e2]:
+  - generic [ref=f14e3]:
+    - generic [ref=f14e4]:
+      - generic [ref=f14e5]: Battle reference · standard edition
+      - heading "Skill index" [level=1] [ref=f14e6]
+      - paragraph [ref=f14e7]: Browse all 158 skillsets and expand one to see its abilities and point unlocks. Expanded details load from the Dragon Quest Wiki and require an internet connection.
+    - link "Home" [ref=f14e8] [cursor=pointer]:
+      - /url: ../index.html
+  - region "Search skillsets" [ref=f14e9]:
+    - generic [ref=f14e10]: Search skillsets by name
+    - generic [aria-hidden] [ref=f14e11]: ⌕
+    - searchbox "Search skillsets by name" [ref=f14e12]
+    - status [ref=f14e13]: Showing 158 of 158 skillsets
+  - 'list "Dragon Quest Monsters: Joker 2 skillsets" [ref=f14e14]':
+    - listitem [ref=f14e15]:
+      - group [ref=f14e16]:
+        - generic "001 Abiliterator +" [ref=f14e17] [cursor=pointer]:
+          - generic [ref=f14e18]: "001"
+          - generic [ref=f14e19]: Abiliterator
+          - text: +
+    - listitem [ref=f14e20]:
+      - group [ref=f14e21]:
+        - generic "002 Abiliterator Ward +" [ref=f14e22] [cursor=pointer]:
+          - generic [ref=f14e23]: "002"
+          - generic [ref=f14e24]: Abiliterator Ward
+          - text: +
+    - listitem [ref=f14e25]:
+      - group [ref=f14e26]:
+        - generic "003 Agility Boost +" [ref=f14e27] [cursor=pointer]:
+          - generic [ref=f14e28]: "003"
+          - generic [ref=f14e29]: Agility Boost
+          - text: +
+    - listitem [ref=f14e30]:
+      - group [ref=f14e31]:
+        - generic "004 All-Rounder +" [ref=f14e32] [cursor=pointer]:
+          - generic [ref=f14e33]: "004"
+          - generic [ref=f14e34]: All-Rounder
+          - text: +
+    - listitem [ref=f14e35]:
+      - group [ref=f14e36]:
+        - generic "005 Anti-dragon +" [ref=f14e37] [cursor=pointer]:
+          - generic [ref=f14e38]: "005"
+          - generic [ref=f14e39]: Anti-dragon
+          - text: +
+    - listitem [ref=f14e40]:
+      - group [ref=f14e41]:
+        - generic "006 Anti-metal +" [ref=f14e42] [cursor=pointer]:
+          - generic [ref=f14e43]: "006"
+          - generic [ref=f14e44]: Anti-metal
+          - text: +
+    - listitem [ref=f14e45]:
+      - group [ref=f14e46]:
+        - generic "007 Antimagic +" [ref=f14e47] [cursor=pointer]:
+          - generic [ref=f14e48]: "007"
+          - generic [ref=f14e49]: Antimagic
+          - text: +
+    - listitem [ref=f14e50]:
+      - group [ref=f14e51]:
+        - generic "008 Aquapothecary +" [ref=f14e52] [cursor=pointer]:
+          - generic [ref=f14e53]: "008"
+          - generic [ref=f14e54]: Aquapothecary
+          - text: +
+    - listitem [ref=f14e55]:
+      - group [ref=f14e56]:
+        - generic "009 Aquarion +" [ref=f14e57] [cursor=pointer]:
+          - generic [ref=f14e58]: "009"
+          - generic [ref=f14e59]: Aquarion
+          - text: +
+    - listitem [ref=f14e60]:
+      - group [ref=f14e61]:
+        - generic "010 Assassin +" [ref=f14e62] [cursor=pointer]:
+          - generic [ref=f14e63]: "010"
+          - generic [ref=f14e64]: Assassin
+          - text: +
+    - listitem [ref=f14e65]:
+      - group [ref=f14e66]:
+        - generic "011 Attack Boost +" [ref=f14e67] [cursor=pointer]:
+          - generic [ref=f14e68]: "011"
+          - generic [ref=f14e69]: Attack Boost
+          - text: +
+    - listitem [ref=f14e70]:
+      - group [ref=f14e71]:
+        - generic "012 Bad Breath +" [ref=f14e72] [cursor=pointer]:
+          - generic [ref=f14e73]: "012"
+          - generic [ref=f14e74]: Bad Breath
+          - text: +
+    - listitem [ref=f14e75]:
+      - group [ref=f14e76]:
+        - generic "013 Bang & Crack +" [ref=f14e77] [cursor=pointer]:
+          - generic [ref=f14e78]: "013"
+          - generic [ref=f14e79]: Bang & Crack
+          - text: +
+    - listitem [ref=f14e80]:
+      - group [ref=f14e81]:
+        - generic "014 Bang & Sizz +" [ref=f14e82] [cursor=pointer]:
+          - generic [ref=f14e83]: "014"
+          - generic [ref=f14e84]: Bang & Sizz
+          - text: +
+    - listitem [ref=f14e85]:
+      - group [ref=f14e86]:
+        - generic "015 Bang & Woosh +" [ref=f14e87] [cursor=pointer]:
+          - generic [ref=f14e88]: "015"
+          - generic [ref=f14e89]: Bang & Woosh
+          - text: +
+    - listitem [ref=f14e90]:
+      - group [ref=f14e91]:
+        - generic "016 Bang & Zam +" [ref=f14e92] [cursor=pointer]:
+          - generic [ref=f14e93]: "016"
+          - generic [ref=f14e94]: Bang & Zam
+          - text: +
+    - listitem [ref=f14e95]:
+      - group [ref=f14e96]:
+        - generic "017 Bang & Zap +" [ref=f14e97] [cursor=pointer]:
+          - generic [ref=f14e98]: "017"
+          - generic [ref=f14e99]: Bang & Zap
+          - text: +
+    - listitem [ref=f14e100]:
+      - group [ref=f14e101]:
+        - generic "018 Barricade +" [ref=f14e102] [cursor=pointer]:
+          - generic [ref=f14e103]: "018"
+          - generic [ref=f14e104]: Barricade
+          - text: +
+    - listitem [ref=f14e105]:
+      - group [ref=f14e106]:
+        - generic "019 Battle Road Master +" [ref=f14e107] [cursor=pointer]:
+          - generic [ref=f14e108]: "019"
+          - generic [ref=f14e109]: Battle Road Master
+          - text: +
+    - listitem [ref=f14e110]:
+      - group [ref=f14e111]:
+        - generic "020 Berserker +" [ref=f14e112] [cursor=pointer]:
+          - generic [ref=f14e113]: "020"
+          - generic [ref=f14e114]: Berserker
+          - text: +
+    - listitem [ref=f14e115]:
+      - group [ref=f14e116]:
+        - generic "021 Bird Brain +" [ref=f14e117] [cursor=pointer]:
+          - generic [ref=f14e118]: "021"
+          - generic [ref=f14e119]: Bird Brain
+          - text: +
+    - listitem [ref=f14e120]:
+      - group [ref=f14e121]:
+        - generic "022 Bjorn +" [ref=f14e122] [cursor=pointer]:
+          - generic [ref=f14e123]: "022"
+          - generic [ref=f14e124]: Bjorn
+          - text: +
+    - listitem [ref=f14e125]:
+      - group [ref=f14e126]:
+        - generic "023 Bolsterer +" [ref=f14e127] [cursor=pointer]:
+          - generic [ref=f14e128]: "023"
+          - generic [ref=f14e129]: Bolsterer
+          - text: +
+    - listitem [ref=f14e130]:
+      - group [ref=f14e131]:
+        - generic "024 Bombardier +" [ref=f14e132] [cursor=pointer]:
+          - generic [ref=f14e133]: "024"
+          - generic [ref=f14e134]: Bombardier
+          - text: +
+    - listitem [ref=f14e135]:
+      - group [ref=f14e136]:
+        - generic "025 Boom Boxer +" [ref=f14e137] [cursor=pointer]:
+          - generic [ref=f14e138]: "025"
+          - generic [ref=f14e139]: Boom Boxer
+          - text: +
+    - listitem [ref=f14e140]:
+      - group [ref=f14e141]:
+        - generic "026 Bounty Hunter +" [ref=f14e142] [cursor=pointer]:
+          - generic [ref=f14e143]: "026"
+          - generic [ref=f14e144]: Bounty Hunter
+          - text: +
+    - listitem [ref=f14e145]:
+      - group [ref=f14e146]:
+        - generic "027 Breath +" [ref=f14e147] [cursor=pointer]:
+          - generic [ref=f14e148]: "027"
+          - generic [ref=f14e149]: Breath
+          - text: +
+    - listitem [ref=f14e150]:
+      - group [ref=f14e151]:
+        - generic "028 Canzar +" [ref=f14e152] [cursor=pointer]:
+          - generic [ref=f14e153]: "028"
+          - generic [ref=f14e154]: Canzar
+          - text: +
+    - listitem [ref=f14e155]:
+      - group [ref=f14e156]:
+        - generic "029 Captain Crow +" [ref=f14e157] [cursor=pointer]:
+          - generic [ref=f14e158]: "029"
+          - generic [ref=f14e159]: Captain Crow
+          - text: +
+    - listitem [ref=f14e160]:
+      - group [ref=f14e161]:
+        - generic "030 Champion +" [ref=f14e162] [cursor=pointer]:
+          - generic [ref=f14e163]: "030"
+          - generic [ref=f14e164]: Champion
+          - text: +
+    - listitem [ref=f14e165]:
+      - group [ref=f14e166]:
+        - generic "031 Cleanser +" [ref=f14e167] [cursor=pointer]:
+          - generic [ref=f14e168]: "031"
+          - generic [ref=f14e169]: Cleanser
+          - text: +
+    - listitem [ref=f14e170]:
+      - group [ref=f14e171]:
+        - generic "032 Cleric +" [ref=f14e172] [cursor=pointer]:
+          - generic [ref=f14e173]: "032"
+          - generic [ref=f14e174]: Cleric
+          - text: +
+    - listitem [ref=f14e175]:
+      - group [ref=f14e176]:
+        - generic "033 Cluboon +" [ref=f14e177] [cursor=pointer]:
+          - generic [ref=f14e178]: "033"
+          - generic [ref=f14e179]: Cluboon
+          - text: +
+    - listitem [ref=f14e180]:
+      - group [ref=f14e181]:
+        - generic "034 Cold Sleep +" [ref=f14e182] [cursor=pointer]:
+          - generic [ref=f14e183]: "034"
+          - generic [ref=f14e184]: Cold Sleep
+          - text: +
+    - listitem [ref=f14e185]:
+      - group [ref=f14e186]:
+        - generic "035 Crack & Sizz +" [ref=f14e187] [cursor=pointer]:
+          - generic [ref=f14e188]: "035"
+          - generic [ref=f14e189]: Crack & Sizz
+          - text: +
+    - listitem [ref=f14e190]:
+      - group [ref=f14e191]:
+        - generic "036 Crack & Zam +" [ref=f14e192] [cursor=pointer]:
+          - generic [ref=f14e193]: "036"
+          - generic [ref=f14e194]: Crack & Zam
+          - text: +
+    - listitem [ref=f14e195]:
+      - group [ref=f14e196]:
+        - generic "037 Crack & Zap +" [ref=f14e197] [cursor=pointer]:
+          - generic [ref=f14e198]: "037"
+          - generic [ref=f14e199]: Crack & Zap
+          - text: +
+    - listitem [ref=f14e200]:
+      - group [ref=f14e201]:
+        - generic "038 Crusader +" [ref=f14e202] [cursor=pointer]:
+          - generic [ref=f14e203]: "038"
+          - generic [ref=f14e204]: Crusader
+          - text: +
+    - listitem [ref=f14e205]:
+      - group [ref=f14e206]:
+        - generic "039 Cure-all +" [ref=f14e207] [cursor=pointer]:
+          - generic [ref=f14e208]: "039"
+          - generic [ref=f14e209]: Cure-all
+          - text: +
+    - listitem [ref=f14e210]:
+      - group [ref=f14e211]:
+        - generic "040 Cursader +" [ref=f14e212] [cursor=pointer]:
+          - generic [ref=f14e213]: "040"
+          - generic [ref=f14e214]: Cursader
+          - text: +
+    - listitem [ref=f14e215]:
+      - group [ref=f14e216]:
+        - generic "041 Dancer +" [ref=f14e217] [cursor=pointer]:
+          - generic [ref=f14e218]: "041"
+          - generic [ref=f14e219]: Dancer
+          - text: +
+    - listitem [ref=f14e220]:
+      - group [ref=f14e221]:
+        - generic "042 Dark Knight +" [ref=f14e222] [cursor=pointer]:
+          - generic [ref=f14e223]: "042"
+          - generic [ref=f14e224]: Dark Knight
+          - text: +
+    - listitem [ref=f14e225]:
+      - group [ref=f14e226]:
+        - generic "043 Darklight Slashes +" [ref=f14e227] [cursor=pointer]:
+          - generic [ref=f14e228]: "043"
+          - generic [ref=f14e229]: Darklight Slashes
+          - text: +
+    - listitem [ref=f14e230]:
+      - group [ref=f14e231]:
+        - generic "044 Defender +" [ref=f14e232] [cursor=pointer]:
+          - generic [ref=f14e233]: "044"
+          - generic [ref=f14e234]: Defender
+          - text: +
+    - listitem [ref=f14e235]:
+      - group [ref=f14e236]:
+        - generic "045 Defense Boost +" [ref=f14e237] [cursor=pointer]:
+          - generic [ref=f14e238]: "045"
+          - generic [ref=f14e239]: Defense Boost
+          - text: +
+    - listitem [ref=f14e240]:
+      - group [ref=f14e241]:
+        - generic "046 Dhoulmagus +" [ref=f14e242] [cursor=pointer]:
+          - generic [ref=f14e243]: "046"
+          - generic [ref=f14e244]: Dhoulmagus
+          - text: +
+    - listitem [ref=f14e245]:
+      - group [ref=f14e246]:
+        - generic "047 Diabolist +" [ref=f14e247] [cursor=pointer]:
+          - generic [ref=f14e248]: "047"
+          - generic [ref=f14e249]: Diabolist
+          - text: +
+    - listitem [ref=f14e250]:
+      - group [ref=f14e251]:
+        - generic "048 Diamagon +" [ref=f14e252] [cursor=pointer]:
+          - generic [ref=f14e253]: "048"
+          - generic [ref=f14e254]: Diamagon
+          - text: +
+    - listitem [ref=f14e255]:
+      - group [ref=f14e256]:
+        - generic "049 Diminisher +" [ref=f14e257] [cursor=pointer]:
+          - generic [ref=f14e258]: "049"
+          - generic [ref=f14e259]: Diminisher
+          - text: +
+    - listitem [ref=f14e260]:
+      - group [ref=f14e261]:
+        - generic "050 Dorsal fiend +" [ref=f14e262] [cursor=pointer]:
+          - generic [ref=f14e263]: "050"
+          - generic [ref=f14e264]: Dorsal fiend
+          - text: +
+    - listitem [ref=f14e265]:
+      - group [ref=f14e266]:
+        - generic "051 Dr. Snapped +" [ref=f14e267] [cursor=pointer]:
+          - generic [ref=f14e268]: "051"
+          - generic [ref=f14e269]: Dr. Snapped
+          - text: +
+    - listitem [ref=f14e270]:
+      - group [ref=f14e271]:
+        - generic "052 Dragon Lore +" [ref=f14e272] [cursor=pointer]:
+          - generic [ref=f14e273]: "052"
+          - generic [ref=f14e274]: Dragon Lore
+          - text: +
+    - listitem [ref=f14e275]:
+      - group [ref=f14e276]:
+        - generic "053 Dragonlord +" [ref=f14e277] [cursor=pointer]:
+          - generic [ref=f14e278]: "053"
+          - generic [ref=f14e279]: Dragonlord
+          - text: +
+    - listitem [ref=f14e280]:
+      - group [ref=f14e281]:
+        - generic "054 Dragovian Lord +" [ref=f14e282] [cursor=pointer]:
+          - generic [ref=f14e283]: "054"
+          - generic [ref=f14e284]: Dragovian Lord
+          - text: +
+    - listitem [ref=f14e285]:
+      - group [ref=f14e286]:
+        - generic "055 Dual duellers +" [ref=f14e287] [cursor=pointer]:
+          - generic [ref=f14e288]: "055"
+          - generic [ref=f14e289]: Dual duellers
+          - text: +
+    - listitem [ref=f14e290]:
+      - group [ref=f14e291]:
+        - generic "056 Empyrea +" [ref=f14e292] [cursor=pointer]:
+          - generic [ref=f14e293]: "056"
+          - generic [ref=f14e294]: Empyrea
+          - text: +
+    - listitem [ref=f14e295]:
+      - group [ref=f14e296]:
+        - generic "057 Enfeebler +" [ref=f14e297] [cursor=pointer]:
+          - generic [ref=f14e298]: "057"
+          - generic [ref=f14e299]: Enfeebler
+          - text: +
+    - listitem [ref=f14e300]:
+      - group [ref=f14e301]:
+        - generic "058 Estark +" [ref=f14e302] [cursor=pointer]:
+          - generic [ref=f14e303]: "058"
+          - generic [ref=f14e304]: Estark
+          - text: +
+    - listitem [ref=f14e305]:
+      - group [ref=f14e306]:
+        - generic "059 Exorsus +" [ref=f14e307] [cursor=pointer]:
+          - generic [ref=f14e308]: "059"
+          - generic [ref=f14e309]: Exorsus
+          - text: +
+    - listitem [ref=f14e310]:
+      - group [ref=f14e311]:
+        - generic "060 Fear-monger +" [ref=f14e312] [cursor=pointer]:
+          - generic [ref=f14e313]: "060"
+          - generic [ref=f14e314]: Fear-monger
+          - text: +
+    - listitem [ref=f14e315]:
+      - group [ref=f14e316]:
+        - generic "061 Fire +" [ref=f14e317] [cursor=pointer]:
+          - generic [ref=f14e318]: "061"
+          - generic [ref=f14e319]: Fire
+          - text: +
+    - listitem [ref=f14e320]:
+      - group [ref=f14e321]:
+        - generic "062 Fire Breath Ward +" [ref=f14e322] [cursor=pointer]:
+          - generic [ref=f14e323]: "062"
+          - generic [ref=f14e324]: Fire Breath Ward
+          - text: +
+    - listitem [ref=f14e325]:
+      - group [ref=f14e326]:
+        - generic "063 Fire Fighter +" [ref=f14e327] [cursor=pointer]:
+          - generic [ref=f14e328]: "063"
+          - generic [ref=f14e329]: Fire Fighter
+          - text: +
+    - listitem [ref=f14e330]:
+      - group [ref=f14e331]:
+        - generic "064 Firewind Slashes +" [ref=f14e332] [cursor=pointer]:
+          - generic [ref=f14e333]: "064"
+          - generic [ref=f14e334]: Firewind Slashes
+          - text: +
+    - listitem [ref=f14e335]:
+      - group [ref=f14e336]:
+        - generic "065 Flute Warrior +" [ref=f14e337] [cursor=pointer]:
+          - generic [ref=f14e338]: "065"
+          - generic [ref=f14e339]: Flute Warrior
+          - text: +
+    - listitem [ref=f14e340]:
+      - group [ref=f14e341]:
+        - generic "066 Fortifier +" [ref=f14e342] [cursor=pointer]:
+          - generic [ref=f14e343]: "066"
+          - generic [ref=f14e344]: Fortifier
+          - text: +
+    - listitem [ref=f14e345]:
+      - group [ref=f14e346]:
+        - generic "067 Frizz & Bang +" [ref=f14e347] [cursor=pointer]:
+          - generic [ref=f14e348]: "067"
+          - generic [ref=f14e349]: Frizz & Bang
+          - text: +
+    - listitem [ref=f14e350]:
+      - group [ref=f14e351]:
+        - generic "068 Frizz & Sizz +" [ref=f14e352] [cursor=pointer]:
+          - generic [ref=f14e353]: "068"
+          - generic [ref=f14e354]: Frizz & Sizz
+          - text: +
+    - listitem [ref=f14e355]:
+      - group [ref=f14e356]:
+        - generic "069 Frizz & Woosh +" [ref=f14e357] [cursor=pointer]:
+          - generic [ref=f14e358]: "069"
+          - generic [ref=f14e359]: Frizz & Woosh
+          - text: +
+    - listitem [ref=f14e360]:
+      - group [ref=f14e361]:
+        - generic "070 Frizz & Zam +" [ref=f14e362] [cursor=pointer]:
+          - generic [ref=f14e363]: "070"
+          - generic [ref=f14e364]: Frizz & Zam
+          - text: +
+    - listitem [ref=f14e365]:
+      - group [ref=f14e366]:
+        - generic "071 Frizz & Zap +" [ref=f14e367] [cursor=pointer]:
+          - generic [ref=f14e368]: "071"
+          - generic [ref=f14e369]: Frizz & Zap
+          - text: +
+    - listitem [ref=f14e370]:
+      - group [ref=f14e371]:
+        - generic "072 Graveheart +" [ref=f14e372] [cursor=pointer]:
+          - generic [ref=f14e373]: "072"
+          - generic [ref=f14e374]: Graveheart
+          - text: +
+    - listitem [ref=f14e375]:
+      - group [ref=f14e376]:
+        - generic "073 Great godbird +" [ref=f14e377] [cursor=pointer]:
+          - generic [ref=f14e378]: "073"
+          - generic [ref=f14e379]: Great godbird
+          - text: +
+    - listitem [ref=f14e380]:
+      - group [ref=f14e381]:
+        - generic "074 Green Finger +" [ref=f14e382] [cursor=pointer]:
+          - generic [ref=f14e383]: "074"
+          - generic [ref=f14e384]: Green Finger
+          - text: +
+    - listitem [ref=f14e385]:
+      - group [ref=f14e386]:
+        - generic "075 Guerrilla +" [ref=f14e387] [cursor=pointer]:
+          - generic [ref=f14e388]: "075"
+          - generic [ref=f14e389]: Guerrilla
+          - text: +
+    - listitem [ref=f14e390]:
+      - group [ref=f14e391]:
+        - generic "076 Hawkhart +" [ref=f14e392] [cursor=pointer]:
+          - generic [ref=f14e393]: "076"
+          - generic [ref=f14e394]: Hawkhart
+          - text: +
+    - listitem [ref=f14e395]:
+      - group [ref=f14e396]:
+        - generic "077 Healer +" [ref=f14e397] [cursor=pointer]:
+          - generic [ref=f14e398]: "077"
+          - generic [ref=f14e399]: Healer
+          - text: +
+    - listitem [ref=f14e400]:
+      - group [ref=f14e401]:
+        - generic "078 Hero of the Heavens +" [ref=f14e402] [cursor=pointer]:
+          - generic [ref=f14e403]: "078"
+          - generic [ref=f14e404]: Hero of the Heavens
+          - text: +
+    - listitem [ref=f14e405]:
+      - group [ref=f14e406]:
+        - generic "079 Hive Mind +" [ref=f14e407] [cursor=pointer]:
+          - generic [ref=f14e408]: "079"
+          - generic [ref=f14e409]: Hive Mind
+          - text: +
+    - listitem [ref=f14e410]:
+      - group [ref=f14e411]:
+        - generic "080 Huntsman +" [ref=f14e412] [cursor=pointer]:
+          - generic [ref=f14e413]: "080"
+          - generic [ref=f14e414]: Huntsman
+          - text: +
+    - listitem [ref=f14e415]:
+      - group [ref=f14e416]:
+        - generic "081 Hypnotist +" [ref=f14e417] [cursor=pointer]:
+          - generic [ref=f14e418]: "081"
+          - generic [ref=f14e419]: Hypnotist
+          - text: +
+    - listitem [ref=f14e420]:
+      - group [ref=f14e421]:
+        - generic "082 Ice +" [ref=f14e422] [cursor=pointer]:
+          - generic [ref=f14e423]: "082"
+          - generic [ref=f14e424]: Ice
+          - text: +
+    - listitem [ref=f14e425]:
+      - group [ref=f14e426]:
+        - generic "083 Ice Breath Ward +" [ref=f14e427] [cursor=pointer]:
+          - generic [ref=f14e428]: "083"
+          - generic [ref=f14e429]: Ice Breath Ward
+          - text: +
+    - listitem [ref=f14e430]:
+      - group [ref=f14e431]:
+        - generic "084 Icemeister +" [ref=f14e432] [cursor=pointer]:
+          - generic [ref=f14e433]: "084"
+          - generic [ref=f14e434]: Icemeister
+          - text: +
+    - listitem [ref=f14e435]:
+      - group [ref=f14e436]:
+        - generic "085 Iceplosion Slashes +" [ref=f14e437] [cursor=pointer]:
+          - generic [ref=f14e438]: "085"
+          - generic [ref=f14e439]: Iceplosion Slashes
+          - text: +
+    - listitem [ref=f14e440]:
+      - group [ref=f14e441]:
+        - generic "086 Khalamari +" [ref=f14e442] [cursor=pointer]:
+          - generic [ref=f14e443]: "086"
+          - generic [ref=f14e444]: Khalamari
+          - text: +
+    - listitem [ref=f14e445]:
+      - group [ref=f14e446]:
+        - generic "087 Leonyx +" [ref=f14e447] [cursor=pointer]:
+          - generic [ref=f14e448]: "087"
+          - generic [ref=f14e449]: Leonyx
+          - text: +
+    - listitem [ref=f14e450]:
+      - group [ref=f14e451]:
+        - generic "088 Leopold +" [ref=f14e452] [cursor=pointer]:
+          - generic [ref=f14e453]: "088"
+          - generic [ref=f14e454]: Leopold
+          - text: +
+    - listitem [ref=f14e455]:
+      - group [ref=f14e456]:
+        - generic "089 Mage +" [ref=f14e457] [cursor=pointer]:
+          - generic [ref=f14e458]: "089"
+          - generic [ref=f14e459]: Mage
+          - text: +
+    - listitem [ref=f14e460]:
+      - group [ref=f14e461]:
+        - generic "090 Mage Aid +" [ref=f14e462] [cursor=pointer]:
+          - generic [ref=f14e463]: "090"
+          - generic [ref=f14e464]: Mage Aid
+          - text: +
+    - listitem [ref=f14e465]:
+      - group [ref=f14e466]:
+        - generic "091 Martial Artist +" [ref=f14e467] [cursor=pointer]:
+          - generic [ref=f14e468]: "091"
+          - generic [ref=f14e469]: Martial Artist
+          - text: +
+    - listitem [ref=f14e470]:
+      - group [ref=f14e471]:
+        - generic "092 Martyr +" [ref=f14e472] [cursor=pointer]:
+          - generic [ref=f14e473]: "092"
+          - generic [ref=f14e474]: Martyr
+          - text: +
+    - listitem [ref=f14e475]:
+      - group [ref=f14e476]:
+        - generic "093 Materialist +" [ref=f14e477] [cursor=pointer]:
+          - generic [ref=f14e478]: "093"
+          - generic [ref=f14e479]: Materialist
+          - text: +
+    - listitem [ref=f14e480]:
+      - group [ref=f14e481]:
+        - generic "094 Mime +" [ref=f14e482] [cursor=pointer]:
+          - generic [ref=f14e483]: "094"
+          - generic [ref=f14e484]: Mime
+          - text: +
+    - listitem [ref=f14e485]:
+      - group [ref=f14e486]:
+        - generic "095 Missing lynx +" [ref=f14e487] [cursor=pointer]:
+          - generic [ref=f14e488]: "095"
+          - generic [ref=f14e489]: Missing lynx
+          - text: +
+    - listitem [ref=f14e490]:
+      - group [ref=f14e491]:
+        - generic "096 Morrie's Melange +" [ref=f14e492] [cursor=pointer]:
+          - generic [ref=f14e493]: "096"
+          - generic [ref=f14e494]: Morrie's Melange
+          - text: +
+    - listitem [ref=f14e495]:
+      - group [ref=f14e496]:
+        - generic "097 Mortamor +" [ref=f14e497] [cursor=pointer]:
+          - generic [ref=f14e498]: "097"
+          - generic [ref=f14e499]: Mortamor
+          - text: +
+    - listitem [ref=f14e500]:
+      - group [ref=f14e501]:
+        - generic "098 Mortella +" [ref=f14e502] [cursor=pointer]:
+          - generic [ref=f14e503]: "098"
+          - generic [ref=f14e504]: Mortella
+          - text: +
+    - listitem [ref=f14e505]:
+      - group [ref=f14e506]:
+        - generic "099 Muspell +" [ref=f14e507] [cursor=pointer]:
+          - generic [ref=f14e508]: "099"
+          - generic [ref=f14e509]: Muspell
+          - text: +
+    - listitem [ref=f14e510]:
+      - group [ref=f14e511]:
+        - generic "100 Naturalist +" [ref=f14e512] [cursor=pointer]:
+          - generic [ref=f14e513]: "100"
+          - generic [ref=f14e514]: Naturalist
+          - text: +
+    - listitem [ref=f14e515]:
+      - group [ref=f14e516]:
+        - generic "101 Niflheim +" [ref=f14e517] [cursor=pointer]:
+          - generic [ref=f14e518]: "101"
+          - generic [ref=f14e519]: Niflheim
+          - text: +
+    - listitem [ref=f14e520]:
+      - group [ref=f14e521]:
+        - generic "102 Nightmare +" [ref=f14e522] [cursor=pointer]:
+          - generic [ref=f14e523]: "102"
+          - generic [ref=f14e524]: Nightmare
+          - text: +
+    - listitem [ref=f14e525]:
+      - group [ref=f14e526]:
+        - generic "103 Nimzo +" [ref=f14e527] [cursor=pointer]:
+          - generic [ref=f14e528]: "103"
+          - generic [ref=f14e529]: Nimzo
+          - text: +
+    - listitem [ref=f14e530]:
+      - group [ref=f14e531]:
+        - generic "104 Orochi +" [ref=f14e532] [cursor=pointer]:
+          - generic [ref=f14e533]: "104"
+          - generic [ref=f14e534]: Orochi
+          - text: +
+    - listitem [ref=f14e535]:
+      - group [ref=f14e536]:
+        - generic "105 Priest +" [ref=f14e537] [cursor=pointer]:
+          - generic [ref=f14e538]: "105"
+          - generic [ref=f14e539]: Priest
+          - text: +
+    - listitem [ref=f14e540]:
+      - group [ref=f14e541]:
+        - generic "106 Reaper +" [ref=f14e542] [cursor=pointer]:
+          - generic [ref=f14e543]: "106"
+          - generic [ref=f14e544]: Reaper
+          - text: +
+    - listitem [ref=f14e545]:
+      - group [ref=f14e546]:
+        - generic "107 Rhapthorne +" [ref=f14e547] [cursor=pointer]:
+          - generic [ref=f14e548]: "107"
+          - generic [ref=f14e549]: Rhapthorne
+          - text: +
+    - listitem [ref=f14e550]:
+      - group [ref=f14e551]:
+        - generic "108 Rigor Mortex +" [ref=f14e552] [cursor=pointer]:
+          - generic [ref=f14e553]: "108"
+          - generic [ref=f14e554]: Rigor Mortex
+          - text: +
+    - listitem [ref=f14e555]:
+      - group [ref=f14e556]:
+        - generic "109 Ruin +" [ref=f14e557] [cursor=pointer]:
+          - generic [ref=f14e558]: "109"
+          - generic [ref=f14e559]: Ruin
+          - text: +
+    - listitem [ref=f14e560]:
+      - group [ref=f14e561]:
+        - generic "110 Saboteur +" [ref=f14e562] [cursor=pointer]:
+          - generic [ref=f14e563]: "110"
+          - generic [ref=f14e564]: Saboteur
+          - text: +
+    - listitem [ref=f14e565]:
+      - group [ref=f14e566]:
+        - generic "111 Sage +" [ref=f14e567] [cursor=pointer]:
+          - generic [ref=f14e568]: "111"
+          - generic [ref=f14e569]: Sage
+          - text: +
+    - listitem [ref=f14e570]:
+      - group [ref=f14e571]:
+        - generic "112 Sagittar +" [ref=f14e572] [cursor=pointer]:
+          - generic [ref=f14e573]: "112"
+          - generic [ref=f14e574]: Sagittar
+          - text: +
+    - listitem [ref=f14e575]:
+      - group [ref=f14e576]:
+        - generic "113 Seal +" [ref=f14e577] [cursor=pointer]:
+          - generic [ref=f14e578]: "113"
+          - generic [ref=f14e579]: Seal
+          - text: +
+    - listitem [ref=f14e580]:
+      - group [ref=f14e581]:
+        - generic "114 Sizz & Zam +" [ref=f14e582] [cursor=pointer]:
+          - generic [ref=f14e583]: "114"
+          - generic [ref=f14e584]: Sizz & Zam
+          - text: +
+    - listitem [ref=f14e585]:
+      - group [ref=f14e586]:
+        - generic "115 Sizz & Zap +" [ref=f14e587] [cursor=pointer]:
+          - generic [ref=f14e588]: "115"
+          - generic [ref=f14e589]: Sizz & Zap
+          - text: +
+    - listitem [ref=f14e590]:
+      - group [ref=f14e591]:
+        - generic "116 Slimer +" [ref=f14e592] [cursor=pointer]:
+          - generic [ref=f14e593]: "116"
+          - generic [ref=f14e594]: Slimer
+          - text: +
+    - listitem [ref=f14e595]:
+      - group [ref=f14e596]:
+        - generic "117 Speedster +" [ref=f14e597] [cursor=pointer]:
+          - generic [ref=f14e598]: "117"
+          - generic [ref=f14e599]: Speedster
+          - text: +
+    - listitem [ref=f14e600]:
+      - group [ref=f14e601]:
+        - generic "118 Stormsgate Citadel +" [ref=f14e602] [cursor=pointer]:
+          - generic [ref=f14e603]: "118"
+          - generic [ref=f14e604]: Stormsgate Citadel
+          - text: +
+    - listitem [ref=f14e605]:
+      - group [ref=f14e606]:
+        - generic "119 Thief +" [ref=f14e607] [cursor=pointer]:
+          - generic [ref=f14e608]: "119"
+          - generic [ref=f14e609]: Thief
+          - text: +
+    - listitem [ref=f14e610]:
+      - group [ref=f14e611]:
+        - generic "120 Thornella +" [ref=f14e612] [cursor=pointer]:
+          - generic [ref=f14e613]: "120"
+          - generic [ref=f14e614]: Thornella
+          - text: +
+    - listitem [ref=f14e615]:
+      - group [ref=f14e616]:
+        - generic "121 Thunderwind Slashes +" [ref=f14e617] [cursor=pointer]:
+          - generic [ref=f14e618]: "121"
+          - generic [ref=f14e619]: Thunderwind Slashes
+          - text: +
+    - listitem [ref=f14e620]:
+      - group [ref=f14e621]:
+        - generic "122 Toughie +" [ref=f14e622] [cursor=pointer]:
+          - generic [ref=f14e623]: "122"
+          - generic [ref=f14e624]: Toughie
+          - text: +
+    - listitem [ref=f14e625]:
+      - group [ref=f14e626]:
+        - generic "123 Toxifier +" [ref=f14e627] [cursor=pointer]:
+          - generic [ref=f14e628]: "123"
+          - generic [ref=f14e629]: Toxifier
+          - text: +
+    - listitem [ref=f14e630]:
+      - group [ref=f14e631]:
+        - generic "124 Trickster +" [ref=f14e632] [cursor=pointer]:
+          - generic [ref=f14e633]: "124"
+          - generic [ref=f14e634]: Trickster
+          - text: +
+    - listitem [ref=f14e635]:
+      - group [ref=f14e636]:
+        - generic "125 Über Agility Boost +" [ref=f14e637] [cursor=pointer]:
+          - generic [ref=f14e638]: "125"
+          - generic [ref=f14e639]: Über Agility Boost
+          - text: +
+    - listitem [ref=f14e640]:
+      - group [ref=f14e641]:
+        - generic "126 Über Attack Boost +" [ref=f14e642] [cursor=pointer]:
+          - generic [ref=f14e643]: "126"
+          - generic [ref=f14e644]: Über Attack Boost
+          - text: +
+    - listitem [ref=f14e645]:
+      - group [ref=f14e646]:
+        - generic "127 Über Blessed Blizzardier +" [ref=f14e647] [cursor=pointer]:
+          - generic [ref=f14e648]: "127"
+          - generic [ref=f14e649]: Über Blessed Blizzardier
+          - text: +
+    - listitem [ref=f14e650]:
+      - group [ref=f14e651]:
+        - generic "128 Über Breath +" [ref=f14e652] [cursor=pointer]:
+          - generic [ref=f14e653]: "128"
+          - generic [ref=f14e654]: Über Breath
+          - text: +
+    - listitem [ref=f14e655]:
+      - group [ref=f14e656]:
+        - generic "129 Über Charmer +" [ref=f14e657] [cursor=pointer]:
+          - generic [ref=f14e658]: "129"
+          - generic [ref=f14e659]: Über Charmer
+          - text: +
+    - listitem [ref=f14e660]:
+      - group [ref=f14e661]:
+        - generic "130 Über Cold Ward +" [ref=f14e662] [cursor=pointer]:
+          - generic [ref=f14e663]: "130"
+          - generic [ref=f14e664]: Über Cold Ward
+          - text: +
+    - listitem [ref=f14e665]:
+      - group [ref=f14e666]:
+        - generic "131 Über Dark Dynamiter +" [ref=f14e667] [cursor=pointer]:
+          - generic [ref=f14e668]: "131"
+          - generic [ref=f14e669]: Über Dark Dynamiter
+          - text: +
+    - listitem [ref=f14e670]:
+      - group [ref=f14e671]:
+        - generic "132 Über Darklight Ward +" [ref=f14e672] [cursor=pointer]:
+          - generic [ref=f14e673]: "132"
+          - generic [ref=f14e674]: Über Darklight Ward
+          - text: +
+    - listitem [ref=f14e675]:
+      - group [ref=f14e676]:
+        - generic "133 Über Defense Boost +" [ref=f14e677] [cursor=pointer]:
+          - generic [ref=f14e678]: "133"
+          - generic [ref=f14e679]: Über Defense Boost
+          - text: +
+    - listitem [ref=f14e680]:
+      - group [ref=f14e681]:
+        - generic "134 Über Healer +" [ref=f14e682] [cursor=pointer]:
+          - generic [ref=f14e683]: "134"
+          - generic [ref=f14e684]: Über Healer
+          - text: +
+    - listitem [ref=f14e685]:
+      - group [ref=f14e686]:
+        - generic "135 Über Health Boost +" [ref=f14e687] [cursor=pointer]:
+          - generic [ref=f14e688]: "135"
+          - generic [ref=f14e689]: Über Health Boost
+          - text: +
+    - listitem [ref=f14e690]:
+      - group [ref=f14e691]:
+        - generic "136 Über Heat Ward +" [ref=f14e692] [cursor=pointer]:
+          - generic [ref=f14e693]: "136"
+          - generic [ref=f14e694]: Über Heat Ward
+          - text: +
+    - listitem [ref=f14e695]:
+      - group [ref=f14e696]:
+        - generic "137 Über Helpful +" [ref=f14e697] [cursor=pointer]:
+          - generic [ref=f14e698]: "137"
+          - generic [ref=f14e699]: Über Helpful
+          - text: +
+    - listitem [ref=f14e700]:
+      - group [ref=f14e701]:
+        - generic "138 Über Knight +" [ref=f14e702] [cursor=pointer]:
+          - generic [ref=f14e703]: "138"
+          - generic [ref=f14e704]: Über Knight
+          - text: +
+    - listitem [ref=f14e705]:
+      - group [ref=f14e706]:
+        - generic "139 Über Mage +" [ref=f14e707] [cursor=pointer]:
+          - generic [ref=f14e708]: "139"
+          - generic [ref=f14e709]: Über Mage
+          - text: +
+    - listitem [ref=f14e710]:
+      - group [ref=f14e711]:
+        - generic "140 Über Magic Boost +" [ref=f14e712] [cursor=pointer]:
+          - generic [ref=f14e713]: "140"
+          - generic [ref=f14e714]: Über Magic Boost
+          - text: +
+    - listitem [ref=f14e715]:
+      - group [ref=f14e716]:
+        - generic "141 Über Windblast Ward +" [ref=f14e717] [cursor=pointer]:
+          - generic [ref=f14e718]: "141"
+          - generic [ref=f14e719]: Über Windblast Ward
+          - text: +
+    - listitem [ref=f14e720]:
+      - group [ref=f14e721]:
+        - generic "142 Über Wisdom Boost +" [ref=f14e722] [cursor=pointer]:
+          - generic [ref=f14e723]: "142"
+          - generic [ref=f14e724]: Über Wisdom Boost
+          - text: +
+    - listitem [ref=f14e725]:
+      - group [ref=f14e726]:
+        - generic "143 Über Zapologist +" [ref=f14e727] [cursor=pointer]:
+          - generic [ref=f14e728]: "143"
+          - generic [ref=f14e729]: Über Zapologist
+          - text: +
+    - listitem [ref=f14e730]:
+      - group [ref=f14e731]:
+        - generic "144 Vile Void +" [ref=f14e732] [cursor=pointer]:
+          - generic [ref=f14e733]: "144"
+          - generic [ref=f14e734]: Vile Void
+          - text: +
+    - listitem [ref=f14e735]:
+      - group [ref=f14e736]:
+        - generic "145 Warrior +" [ref=f14e737] [cursor=pointer]:
+          - generic [ref=f14e738]: "145"
+          - generic [ref=f14e739]: Warrior
+          - text: +
+    - listitem [ref=f14e740]:
+      - group [ref=f14e741]:
+        - generic "146 White Knight +" [ref=f14e742] [cursor=pointer]:
+          - generic [ref=f14e743]: "146"
+          - generic [ref=f14e744]: White Knight
+          - text: +
+    - listitem [ref=f14e745]:
+      - group [ref=f14e746]:
+        - generic "147 Wildcard +" [ref=f14e747] [cursor=pointer]:
+          - generic [ref=f14e748]: "147"
+          - generic [ref=f14e749]: Wildcard
+          - text: +
+    - listitem [ref=f14e750]:
+      - group [ref=f14e751]:
+        - generic "148 Wind Blower +" [ref=f14e752] [cursor=pointer]:
+          - generic [ref=f14e753]: "148"
+          - generic [ref=f14e754]: Wind Blower
+          - text: +
+    - listitem [ref=f14e755]:
+      - group [ref=f14e756]:
+        - generic "149 Wisdom Booster +" [ref=f14e757] [cursor=pointer]:
+          - generic [ref=f14e758]: "149"
+          - generic [ref=f14e759]: Wisdom Booster
+          - text: +
+    - listitem [ref=f14e760]:
+      - group [ref=f14e761]:
+        - generic "150 Wonder Construction +" [ref=f14e762] [cursor=pointer]:
+          - generic [ref=f14e763]: "150"
+          - generic [ref=f14e764]: Wonder Construction
+          - text: +
+    - listitem [ref=f14e765]:
+      - group [ref=f14e766]:
+        - generic "151 Woosh & Crack +" [ref=f14e767] [cursor=pointer]:
+          - generic [ref=f14e768]: "151"
+          - generic [ref=f14e769]: Woosh & Crack
+          - text: +
+    - listitem [ref=f14e770]:
+      - group [ref=f14e771]:
+        - generic "152 Woosh & Sizz +" [ref=f14e772] [cursor=pointer]:
+          - generic [ref=f14e773]: "152"
+          - generic [ref=f14e774]: Woosh & Sizz
+          - text: +
+    - listitem [ref=f14e775]:
+      - group [ref=f14e776]:
+        - generic "153 Woosh & Zam +" [ref=f14e777] [cursor=pointer]:
+          - generic [ref=f14e778]: "153"
+          - generic [ref=f14e779]: Woosh & Zam
+          - text: +
+    - listitem [ref=f14e780]:
+      - group [ref=f14e781]:
+        - generic "154 Woosh & Zap +" [ref=f14e782] [cursor=pointer]:
+          - generic [ref=f14e783]: "154"
+          - generic [ref=f14e784]: Woosh & Zap
+          - text: +
+    - listitem [ref=f14e785]:
+      - group [ref=f14e786]:
+        - generic "155 Wormonger +" [ref=f14e787] [cursor=pointer]:
+          - generic [ref=f14e788]: "155"
+          - generic [ref=f14e789]: Wormonger
+          - text: +
+    - listitem [ref=f14e790]:
+      - group [ref=f14e791]:
+        - generic "156 Wulfspade +" [ref=f14e792] [cursor=pointer]:
+          - generic [ref=f14e793]: "156"
+          - generic [ref=f14e794]: Wulfspade
+          - text: +
+    - listitem [ref=f14e795]:
+      - group [ref=f14e796]:
+        - generic "157 Zenith Dragon +" [ref=f14e797] [cursor=pointer]:
+          - generic [ref=f14e798]: "157"
+          - generic [ref=f14e799]: Zenith Dragon
+          - text: +
+    - listitem [ref=f14e800]:
+      - group [ref=f14e801]:
+        - generic "158 Zoma +" [ref=f14e802] [cursor=pointer]:
+          - generic [ref=f14e803]: "158"
+          - generic [ref=f14e804]: Zoma
+          - text: +

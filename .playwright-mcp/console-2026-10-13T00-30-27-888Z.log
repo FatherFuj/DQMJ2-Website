@@ -1,0 +1,17 @@
+[     206ms] [LOG] URL: https://opbsjnibzmawexxzojjm.supabase.co @ http://127.0.0.1:5173/src/lib/supabase.js:4
+[     206ms] [LOG] KEY: sb_publishable_agHTwfZg5TzSVustO16poQ_4B7wYa9y @ http://127.0.0.1:5173/src/lib/supabase.js:5
+[     215ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://127.0.0.1:5173/favicon.ico:0
+[   65358ms] [LOG] URL: https://opbsjnibzmawexxzojjm.supabase.co @ http://127.0.0.1:5173/src/lib/supabase.js:4
+[   65358ms] [LOG] KEY: sb_publishable_agHTwfZg5TzSVustO16poQ_4B7wYa9y @ http://127.0.0.1:5173/src/lib/supabase.js:5
+[   65413ms] [LOG] URL: https://opbsjnibzmawexxzojjm.supabase.co @ http://127.0.0.1:5173/src/lib/supabase.js:4
+[   65413ms] [LOG] KEY: sb_publishable_agHTwfZg5TzSVustO16poQ_4B7wYa9y @ http://127.0.0.1:5173/src/lib/supabase.js:5
+[   65480ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://127.0.0.1:5173/pages/monster-detail.html?html-proxy&index=0.js:0
+[   65760ms] [LOG] URL: https://opbsjnibzmawexxzojjm.supabase.co @ http://127.0.0.1:5173/src/lib/supabase.js:4
+[   65760ms] [LOG] KEY: sb_publishable_agHTwfZg5TzSVustO16poQ_4B7wYa9y @ http://127.0.0.1:5173/src/lib/supabase.js:5
+[   86335ms] [LOG] URL: https://opbsjnibzmawexxzojjm.supabase.co @ http://127.0.0.1:5173/src/lib/supabase.js:4
+[   86335ms] [LOG] KEY: sb_publishable_agHTwfZg5TzSVustO16poQ_4B7wYa9y @ http://127.0.0.1:5173/src/lib/supabase.js:5
+[   86388ms] [LOG] URL: https://opbsjnibzmawexxzojjm.supabase.co @ http://127.0.0.1:5173/src/lib/supabase.js:4
+[   86388ms] [LOG] KEY: sb_publishable_agHTwfZg5TzSVustO16poQ_4B7wYa9y @ http://127.0.0.1:5173/src/lib/supabase.js:5
+[   86417ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://127.0.0.1:5173/pages/monster-detail.html?html-proxy&index=0.js:0
+[   86597ms] [LOG] URL: https://opbsjnibzmawexxzojjm.supabase.co @ http://127.0.0.1:5173/src/lib/supabase.js:4
+[   86597ms] [LOG] KEY: sb_publishable_agHTwfZg5TzSVustO16poQ_4B7wYa9y @ http://127.0.0.1:5173/src/lib/supabase.js:5
