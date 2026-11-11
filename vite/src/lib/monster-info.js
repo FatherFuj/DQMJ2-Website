@@ -17,6 +17,27 @@ function getFirstValue(record, keys) {
     return null
 }
 
+function splitValues(text) {
+    const values = []
+    let current = ''
+    let parentheses = 0
+
+    for (const character of text) {
+        if (character === '(') parentheses += 1
+        if (character === ')') parentheses = Math.max(0, parentheses - 1)
+
+        if (character === ',' && parentheses === 0 || /[\n;|]/.test(character)) {
+            if (current.trim()) values.push(current.trim())
+            current = ''
+        } else {
+            current += character
+        }
+    }
+
+    if (current.trim()) values.push(current.trim())
+    return values
+}
+
 function displayValue(value) {
     if (value === null || value === undefined || value === '') {
         return []
@@ -60,7 +81,7 @@ function displayValue(value) {
         // Plain text is supported in addition to JSON-encoded database fields.
     }
 
-    return text.split(/[\n;,|]/).map(item => item.trim()).filter(Boolean)
+    return splitValues(text)
 }
 
 function getTraits(monster) {
@@ -127,6 +148,9 @@ export function parseMonsterInfo(monster, recipeSource = {}) {
         scoutable: typeof monster?.scoutable === 'boolean' ? monster.scoutable : null,
         normalSynthesis: typeof monster?.normal_synthesis === 'boolean'
             ? monster.normal_synthesis
+            : null,
+        specialSynthesis: typeof monster?.special_synthesis === 'boolean'
+            ? monster.special_synthesis
             : null
     }
 }

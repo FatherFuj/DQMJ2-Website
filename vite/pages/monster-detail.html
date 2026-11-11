@@ -73,11 +73,19 @@
                 : info.scoutable === false
                     ? 'Not scoutable.'
                     : undefined
-            const synthesisInfo = info.primarySynthesis.length
-                ? renderRecipes(info.primarySynthesis)
-                : info.normalSynthesis
-                    ? '<p>Normal synthesis (based on family and rank).</p>'
-                    : renderRecipes(info.primarySynthesis)
+            const synthesisMethods = []
+            if (info.primarySynthesis.length) {
+                synthesisMethods.push(renderRecipes(info.primarySynthesis))
+            }
+            if (info.normalSynthesis) {
+                synthesisMethods.push('<p>Also available through normal synthesis (based on family and rank).</p>')
+            }
+            if (!info.primarySynthesis.length && !info.normalSynthesis && info.specialSynthesis) {
+                synthesisMethods.push('<p>Special acquisition method; no synthesis recipe is listed.</p>')
+            }
+            const synthesisInfo = synthesisMethods.length
+                ? synthesisMethods.join('')
+                : renderRecipes(info.primarySynthesis)
 
             detailContainer.innerHTML = `
                 <article class="monster-detail-card">
@@ -127,7 +135,7 @@
                             ${renderList(info.traits)}
                         </div>
                         <div class="monster-detail-field">
-                            <h2>Synthesis</h2>
+                            <h2>Synthesis / obtainment</h2>
                             ${synthesisInfo}
                         </div>
                         <div class="monster-detail-field">

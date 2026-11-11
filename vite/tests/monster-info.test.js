@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { parseMonsterInfo } from '../src/lib/monster-info.js'
 import recipeSource from '../src/lib/dqmj2-special-recipes.json'
+import monsterDetails from '../src/lib/dqmj2-monster-details.json'
 
 describe('monster info parser', () => {
     it('parses database fields and normalizes list-like values', () => {
@@ -24,7 +25,8 @@ describe('monster info parser', () => {
             primarySynthesis: [],
             scoutLocations: ['Albatross', 'Ice Cave'],
             scoutable: null,
-            normalSynthesis: null
+            normalSynthesis: null,
+            specialSynthesis: null
         })
     })
 
@@ -50,11 +52,29 @@ describe('monster info parser', () => {
             name_en: 'Slime',
             scoutable: true,
             normal_synthesis: false,
+            special_synthesis: false,
             scout_locations: ['Albatross (Day)', 'Treepidation (Day, Clear)']
         })
 
         expect(info.scoutable).toBe(true)
         expect(info.normalSynthesis).toBe(false)
+        expect(info.specialSynthesis).toBe(false)
         expect(info.scoutLocations).toEqual(['Albatross (Day)', 'Treepidation (Day, Clear)'])
+    })
+
+    it('uses the downloaded source records for the complete monster roster', () => {
+        expect(monsterDetails.record_count).toBe(311)
+        expect(Object.keys(monsterDetails.records)).toHaveLength(311)
+
+        const slime = parseMonsterInfo(monsterDetails.records['1'], recipeSource)
+        expect(slime.scoutLocations).toContain('Albatross (Day)')
+        expect(slime.scoutable).toBe(true)
+    })
+
+    it('does not present a special acquisition as a known synthesis recipe', () => {
+        const captainCrow = parseMonsterInfo(monsterDetails.records['260'], recipeSource)
+
+        expect(captainCrow.specialSynthesis).toBe(true)
+        expect(captainCrow.primarySynthesis).toEqual([])
     })
 })
