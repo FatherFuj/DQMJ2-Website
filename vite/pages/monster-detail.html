@@ -91,7 +91,7 @@
                 <article class="monster-detail-card">
                     <div class="monster-detail-header">
                         <div>
-                            <p class="eyebrow">${escapeHtml(monster.family ?? 'Unknown family')}</p>
+                            <p class="eyebrow">Monster profile</p>
                             <h1>${escapeHtml(monster.name_en ?? 'Unknown monster')}</h1>
                         </div>
                         <button
@@ -102,27 +102,31 @@
                         >♥</button>
                     </div>
 
-                    <div class="detail-grid">
-                        <div class="detail-visual">
-                            <div class="detail-image-window">
-                                <img
-                                    class="detail-image"
-                                    src="${imagePath}"
-                                    alt="${escapeHtml(monster.name_en ?? 'Monster')} portrait"
-                                    onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';"
-                                >
-                                <div class="detail-image-placeholder" style="display:none;">Monster portrait</div>
-                            </div>
+                    <div class="detail-overview">
+                        <div class="detail-image-window">
+                            <img
+                                class="detail-image"
+                                src="${imagePath}"
+                                alt="${escapeHtml(monster.name_en ?? 'Monster')} portrait"
+                                onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';"
+                            >
+                            <div class="detail-image-placeholder" style="display:none;">Monster portrait</div>
                         </div>
 
-                        <div class="detail-info">
-                            <p class="monster-rank">Rank ${escapeHtml(monster.rank ?? 'Unranked')}</p>
-                            <div class="monster-meta">
-                                <span class="tag">${escapeHtml(monster.family ?? 'Unknown family')}</span>
-                                <span class="tag">${escapeHtml(monster.size ?? 'Unknown size')}</span>
+                        <dl class="detail-facts">
+                            <div class="detail-fact">
+                                <dt>Rank</dt>
+                                <dd>${escapeHtml(monster.rank ?? 'Unranked')}</dd>
                             </div>
-                            <p class="monster-description">${escapeHtml(monster.description ?? 'No description available yet.')}</p>
-                        </div>
+                            <div class="detail-fact">
+                                <dt>Family</dt>
+                                <dd>${escapeHtml(monster.family ?? 'Unknown family')}</dd>
+                            </div>
+                            <div class="detail-fact">
+                                <dt>Size</dt>
+                                <dd>${escapeHtml(monster.size ?? 'Unknown size')}</dd>
+                            </div>
+                        </dl>
                     </div>
 
                     <section class="monster-detail-data" aria-label="Monster information">
