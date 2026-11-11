@@ -82,6 +82,16 @@
         const monsterList = document.getElementById('monsterList')
         let monsters = []
 
+        function escapeHtml(value) {
+            return String(value ?? '').replace(/[&<>"']/g, character => ({
+                '&': '&amp;',
+                '<': '&lt;',
+                '>': '&gt;',
+                '"': '&quot;',
+                "'": '&#39;'
+            })[character])
+        }
+
         function normalizeSize(value) {
             const normalized = String(value ?? '').toUpperCase()
             const sizeMap = {
@@ -146,8 +156,8 @@
                         <article class="monster-card favorite-card">
                             <div class="monster-card-header">
                                 <div>
-                                    <h3>${monster.name_en}</h3>
-                                    <p class="monster-rank">Rank ${monster.rank}</p>
+                                    <h3><a class="monster-name-link" href="./monster-detail.html?id=${encodeURIComponent(monsterId)}">${escapeHtml(monster.name_en)}</a></h3>
+                                    <p class="monster-rank">Rank ${escapeHtml(monster.rank)}</p>
                                 </div>
                                 <button
                                     class="favorite-button ${favoriteState ? 'is-favorite' : ''}"
@@ -157,13 +167,13 @@
                                 >♥</button>
                             </div>
 
-                            <a class="monster-card-main" href="./monster-detail.html?id=${monsterId}">
-                                <p class="monster-description">${monster.description ?? ''}</p>
+                            <div class="monster-card-main">
+                                <p class="monster-description">${escapeHtml(monster.description ?? '')}</p>
                                 <div class="monster-meta">
-                                    <span class="tag">${monster.family}</span>
-                                    <span class="tag">${monster.size}</span>
+                                    <span class="tag">${escapeHtml(monster.family)}</span>
+                                    <span class="tag">${escapeHtml(monster.size)}</span>
                                 </div>
-                            </a>
+                            </div>
 
                             <div class="favorite-card-thumb-wrap">
                                 <img

@@ -19,10 +19,40 @@
     <script type="module">
         import { supabase, publicStorageUrl } from '../src/lib/supabase.js'
         import { isFavorite, toggleFavorite } from '../src/lib/favorites.js'
+        import recipeSource from '../src/lib/dqmj2-special-recipes.json'
+        import monsterDetails from '../src/lib/dqmj2-monster-details.json'
+        import { parseMonsterInfo } from '../src/lib/monster-info.js'
 
         const detailContainer = document.getElementById('monsterDetail')
         const searchParams = new URLSearchParams(window.location.search)
         const monsterId = Number(searchParams.get('id'))
+
+        function escapeHtml(value) {
+            return String(value ?? '').replace(/[&<>"']/g, character => ({
+                '&': '&amp;',
+                '<': '&lt;',
+                '>': '&gt;',
+                '"': '&quot;',
+                "'": '&#39;'
+            })[character])
+        }
+
+        function renderList(values, emptyMessage = 'Not available in the monster data yet.') {
+            return values.length
+                ? `<ul>${values.map(value => `<li>${escapeHtml(value)}</li>`).join('')}</ul>`
+                : `<p class="detail-unavailable">${escapeHtml(emptyMessage)}</p>`
+        }
+
+        function renderRecipes(recipes) {
+            if (recipes.length) {
+                return `<ul>${recipes.map(recipe => {
+                    const parents = Array.isArray(recipe.parents) ? recipe.parents : [recipe]
+                    return `<li>${parents.map(escapeHtml).join(' + ')}</li>`
+                }).join('')}</ul>`
+            }
+
+            return '<p class="detail-unavailable">Not available in the monster data yet.</p>'
+        }
 
         function renderNotFound() {
             detailContainer.innerHTML = `
@@ -36,13 +66,25 @@
             const monsterId = monster.monster_id
             const favoriteState = isFavorite(monsterId)
             const imagePath = `${publicStorageUrl}/monster-${String(monsterId).padStart(3, '0')}.png`
+            const sourceDetails = monsterDetails.records[String(monsterId)] ?? {}
+            const info = parseMonsterInfo({ ...monster, ...sourceDetails }, recipeSource)
+            const scoutMessage = info.scoutable === true
+                ? 'Scoutable, but no location is listed.'
+                : info.scoutable === false
+                    ? 'Not scoutable.'
+                    : undefined
+            const synthesisInfo = info.primarySynthesis.length
+                ? renderRecipes(info.primarySynthesis)
+                : info.normalSynthesis
+                    ? '<p>Normal synthesis (based on family and rank).</p>'
+                    : renderRecipes(info.primarySynthesis)
 
             detailContainer.innerHTML = `
                 <article class="monster-detail-card">
                     <div class="monster-detail-header">
                         <div>
-                            <p class="eyebrow">${monster.family ?? 'Unknown family'}</p>
-                            <h1>${monster.name_en ?? 'Unknown monster'}</h1>
+                            <p class="eyebrow">${escapeHtml(monster.family ?? 'Unknown family')}</p>
+                            <h1>${escapeHtml(monster.name_en ?? 'Unknown monster')}</h1>
                         </div>
                         <button
                             class="favorite-button ${favoriteState ? 'is-favorite' : ''}"
@@ -58,7 +100,7 @@
                                 <img
                                     class="detail-image"
                                     src="${imagePath}"
-                                    alt="${monster.name_en ?? 'Monster'} portrait"
+                                    alt="${escapeHtml(monster.name_en ?? 'Monster')} portrait"
                                     onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';"
                                 >
                                 <div class="detail-image-placeholder" style="display:none;">Monster portrait</div>
@@ -66,14 +108,37 @@
                         </div>
 
                         <div class="detail-info">
-                            <p class="monster-rank">Rank ${monster.rank ?? 'Unranked'}</p>
+                            <p class="monster-rank">Rank ${escapeHtml(monster.rank ?? 'Unranked')}</p>
                             <div class="monster-meta">
-                                <span class="tag">${monster.family ?? 'Unknown family'}</span>
-                                <span class="tag">${monster.size ?? 'Unknown size'}</span>
+                                <span class="tag">${escapeHtml(monster.family ?? 'Unknown family')}</span>
+                                <span class="tag">${escapeHtml(monster.size ?? 'Unknown size')}</span>
                             </div>
-                            <p class="monster-description">${monster.description ?? 'No description available yet.'}</p>
+                            <p class="monster-description">${escapeHtml(monster.description ?? 'No description available yet.')}</p>
                         </div>
                     </div>
+
+                    <section class="monster-detail-data" aria-label="Monster information">
+                        <div class="monster-detail-field">
+                            <h2>Innate skill</h2>
+                            ${renderList(info.innateSkills)}
+                        </div>
+                        <div class="monster-detail-field">
+                            <h2>Traits</h2>
+                            ${renderList(info.traits)}
+                        </div>
+                        <div class="monster-detail-field">
+                            <h2>Synthesis</h2>
+                            ${synthesisInfo}
+                        </div>
+                        <div class="monster-detail-field">
+                            <h2>Where to scout</h2>
+                            ${renderList(info.scoutLocations, scoutMessage)}
+                        </div>
+                    </section>
+                    <p class="detail-source">
+                        Monster locations and synthesis availability from
+                        <a href="${escapeHtml(sourceDetails.source_url ?? monsterDetails.source)}" target="_blank" rel="noreferrer">Rebjørn Wiki</a>.
+                    </p>
                 </article>
             `
 

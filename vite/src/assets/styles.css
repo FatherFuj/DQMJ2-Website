@@ -162,6 +162,16 @@ body {
     color: var(--accent-dark);
 }
 
+.monster-name-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.monster-name-link:hover,
+.monster-name-link:focus-visible {
+    text-decoration: underline;
+}
+
 .monster-card-main {
     display: grid;
     gap: 12px;
@@ -436,6 +446,50 @@ body {
     gap: 14px;
 }
 
+.monster-detail-data {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+}
+
+.monster-detail-field {
+    padding: 16px;
+    border: 1px solid rgba(var(--cover-navy-rgb), 0.12);
+    border-radius: 12px;
+    background: rgba(var(--cover-gold-soft-rgb), 0.35);
+}
+
+.monster-detail-field h2 {
+    margin: 0 0 8px;
+    color: var(--accent-dark);
+    font-size: 1rem;
+}
+
+.monster-detail-field ul,
+.monster-detail-field p {
+    margin: 0;
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+.monster-detail-field p {
+    padding-left: 0;
+}
+
+.detail-unavailable {
+    color: var(--muted);
+}
+
+.detail-source {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.85rem;
+}
+
+.detail-source a {
+    color: var(--accent);
+}
+
 @media (max-width: 840px) {
     .bestiary-toolbar {
         grid-template-columns: 1fr;
@@ -445,6 +499,10 @@ body {
 @media (max-width: 620px) {
     .page-shell {
         padding: 20px;
+    }
+
+    .monster-detail-data {
+        grid-template-columns: 1fr;
     }
 }
 

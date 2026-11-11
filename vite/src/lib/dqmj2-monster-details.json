@@ -1,0 +1,1527 @@
+{
+  "source": "https://rebjorn-wiki.com/dqmj2/monsters?lang=en",
+  "record_count": 131,
+  "records": {
+    "1": {
+      "monster_id": 1,
+      "name_en": "Slime",
+      "slug": "slime",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/slime?lang=en",
+      "scoutable": true,
+      "normal_synthesis": false,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Albatross (Day)",
+        "Albatross (Night)",
+        "Treepidation (Day, Clear)",
+        "Dark world (Any conditions)"
+      ]
+    },
+    "2": {
+      "monster_id": 2,
+      "name_en": "Komodo",
+      "slug": "komodo",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/komodo?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Doubtback (Day, Clear)"
+      ]
+    },
+    "3": {
+      "monster_id": 3,
+      "name_en": "Swarmtroop",
+      "slug": "swarmtroop",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/swarmtroop?lang=en",
+      "scoutable": true,
+      "normal_synthesis": false,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Treepidation (Night, Clear)"
+      ]
+    },
+    "4": {
+      "monster_id": 4,
+      "name_en": "Platypunk",
+      "slug": "platypunk",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/platypunk?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Doubtback (Day)",
+        "Doubtback (Night)"
+      ]
+    },
+    "5": {
+      "monster_id": 5,
+      "name_en": "Bag o' laughs",
+      "slug": "bag_o_laughs",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/bag_o_laughs?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "6": {
+      "monster_id": 6,
+      "name_en": "Dracky",
+      "slug": "dracky",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/dracky?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Treepidation (Night)",
+        "Doubtback (Night, Clear)"
+      ]
+    },
+    "7": {
+      "monster_id": 7,
+      "name_en": "Ghost",
+      "slug": "ghost",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/ghost?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Doubtback (Night, Clear)"
+      ]
+    },
+    "8": {
+      "monster_id": 8,
+      "name_en": "Bad egg",
+      "slug": "bad_egg",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/bad_egg?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "9": {
+      "monster_id": 9,
+      "name_en": "Frou-fry",
+      "slug": "froufry",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/froufry?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": true,
+      "scout_locations": [
+        "Iceolation (Day)",
+        "Iceolation (Night)"
+      ]
+    },
+    "10": {
+      "monster_id": 10,
+      "name_en": "Capsichum",
+      "slug": "capsichum",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/capsichum?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "11": {
+      "monster_id": 11,
+      "name_en": "Mischievous mole",
+      "slug": "mischievous_mole",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/mischievous_mole?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Doubtback (Day)",
+        "Doubtback (Night)"
+      ]
+    },
+    "12": {
+      "monster_id": 12,
+      "name_en": "Mud mannequin",
+      "slug": "mud_mannequin",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/mud_mannequin?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Treepidation (Day)"
+      ]
+    },
+    "13": {
+      "monster_id": 13,
+      "name_en": "Lips",
+      "slug": "lips",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/lips?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Treepidation (Night, Clear)"
+      ]
+    },
+    "14": {
+      "monster_id": 14,
+      "name_en": "Stump chump",
+      "slug": "stump_chump",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/stump_chump?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Treepidation (Day)"
+      ]
+    },
+    "15": {
+      "monster_id": 15,
+      "name_en": "Weedie",
+      "slug": "weedie",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/weedie?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "16": {
+      "monster_id": 16,
+      "name_en": "Dragonthorn",
+      "slug": "dragonthorn",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/dragonthorn?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "17": {
+      "monster_id": 17,
+      "name_en": "Scissor beatle",
+      "slug": "scissor_beatle",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/scissor_beatle?lang=en",
+      "scoutable": true,
+      "normal_synthesis": false,
+      "special_synthesis": true,
+      "scout_locations": [
+        "Treepidation (Night, Clear)"
+      ]
+    },
+    "18": {
+      "monster_id": 18,
+      "name_en": "Killerpillar",
+      "slug": "killerpillar",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/killerpillar?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "19": {
+      "monster_id": 19,
+      "name_en": "Satyr",
+      "slug": "satyr",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/satyr?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Doubtback (Night, Clear)"
+      ]
+    },
+    "20": {
+      "monster_id": 20,
+      "name_en": "Wax murderer",
+      "slug": "wax_murderer",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/wax_murderer?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Dark world (Any conditions)"
+      ]
+    },
+    "21": {
+      "monster_id": 21,
+      "name_en": "Winky",
+      "slug": "winky",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/winky?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "22": {
+      "monster_id": 22,
+      "name_en": "Funghoul",
+      "slug": "funghoul",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/funghoul?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Treepidation (Day)",
+        "Treepidation (Rain)"
+      ]
+    },
+    "23": {
+      "monster_id": 23,
+      "name_en": "Bubble slime",
+      "slug": "bubble_slime",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/bubble_slime?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "24": {
+      "monster_id": 24,
+      "name_en": "Argon lizard",
+      "slug": "argon_lizard",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/argon_lizard?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Dark world (Any conditions)"
+      ]
+    },
+    "25": {
+      "monster_id": 25,
+      "name_en": "Hell hornet",
+      "slug": "hell_hornet",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/hell_hornet?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Treepidation (Day)",
+        "Treepidation (Night)",
+        "Dark world (Any conditions)"
+      ]
+    },
+    "26": {
+      "monster_id": 26,
+      "name_en": "Hammerhood",
+      "slug": "hammerhood",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/hammerhood?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Iceolation (Day, Clear)",
+        "Dark world (Any conditions)"
+      ]
+    },
+    "27": {
+      "monster_id": 27,
+      "name_en": "Frostburn",
+      "slug": "frostburn",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/frostburn?lang=en",
+      "scoutable": false,
+      "normal_synthesis": false,
+      "special_synthesis": true,
+      "scout_locations": []
+    },
+    "28": {
+      "monster_id": 28,
+      "name_en": "Conklave",
+      "slug": "conklave",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/conklave?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Treepidation (Day)",
+        "Treepidation (Rain)"
+      ]
+    },
+    "29": {
+      "monster_id": 29,
+      "name_en": "Muddy hand",
+      "slug": "muddy_hand",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/muddy_hand?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Treepidation (Day)"
+      ]
+    },
+    "30": {
+      "monster_id": 30,
+      "name_en": "Healslime",
+      "slug": "healslime",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/healslime?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Doubtback (Day)",
+        "Doubtback (Night)"
+      ]
+    },
+    "31": {
+      "monster_id": 31,
+      "name_en": "Mental pitcher",
+      "slug": "mental_pitcher",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/mental_pitcher?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Treepidation (Night, Rain)"
+      ]
+    },
+    "32": {
+      "monster_id": 32,
+      "name_en": "Spitnik",
+      "slug": "spitnik",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/spitnik?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Doubtback (Day, Clear)"
+      ]
+    },
+    "33": {
+      "monster_id": 33,
+      "name_en": "See urchin",
+      "slug": "see_urchin",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/see_urchin?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Unshore (Day)"
+      ]
+    },
+    "34": {
+      "monster_id": 34,
+      "name_en": "Firespirit",
+      "slug": "firespirit",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/firespirit?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "35": {
+      "monster_id": 35,
+      "name_en": "She-slime",
+      "slug": "sheslime",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/sheslime?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "36": {
+      "monster_id": 36,
+      "name_en": "Jargon",
+      "slug": "jargon",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/jargon?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": true,
+      "scout_locations": []
+    },
+    "37": {
+      "monster_id": 37,
+      "name_en": "Great sabrecub",
+      "slug": "great_sabrecub",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/great_sabrecub?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Treepidation (Night, Clear)"
+      ]
+    },
+    "38": {
+      "monster_id": 38,
+      "name_en": "Weaken beakon",
+      "slug": "weaken_beakon",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/weaken_beakon?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Doubtback (Night, Clear)"
+      ]
+    },
+    "39": {
+      "monster_id": 39,
+      "name_en": "Cheeky tiki",
+      "slug": "cheeky_tiki",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/cheeky_tiki?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Treepidation (Night)"
+      ]
+    },
+    "40": {
+      "monster_id": 40,
+      "name_en": "Heedoovoodoo",
+      "slug": "heedoovoodoo",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/heedoovoodoo?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Treepidation (Day, Clear)"
+      ]
+    },
+    "41": {
+      "monster_id": 41,
+      "name_en": "Drohl drone",
+      "slug": "drohl_drone",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/drohl_drone?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Doubtback (Rain)"
+      ]
+    },
+    "42": {
+      "monster_id": 42,
+      "name_en": "Drake slime",
+      "slug": "drake_slime",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/drake_slime?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": true,
+      "scout_locations": [
+        "Bemusoleum (Day)"
+      ]
+    },
+    "43": {
+      "monster_id": 43,
+      "name_en": "Boreal serpent",
+      "slug": "boreal_serpent",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/boreal_serpent?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": true,
+      "scout_locations": []
+    },
+    "44": {
+      "monster_id": 44,
+      "name_en": "Chimaera",
+      "slug": "chimaera",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/chimaera?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Doubtback (Day, Clear)"
+      ]
+    },
+    "45": {
+      "monster_id": 45,
+      "name_en": "Powie yowie",
+      "slug": "powie_yowie",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/powie_yowie?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "46": {
+      "monster_id": 46,
+      "name_en": "Rockbomb",
+      "slug": "rockbomb",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/rockbomb?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Doubtback (Day)",
+        "Doubtback (Night)"
+      ]
+    },
+    "47": {
+      "monster_id": 47,
+      "name_en": "Frogface",
+      "slug": "frogface",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/frogface?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Treepidation (Rain)"
+      ]
+    },
+    "48": {
+      "monster_id": 48,
+      "name_en": "Mummy boy",
+      "slug": "mummy_boy",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/mummy_boy?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Bemusoleum (Night)"
+      ]
+    },
+    "49": {
+      "monster_id": 49,
+      "name_en": "Wild slime",
+      "slug": "wild_slime",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/wild_slime?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Iceolation (Day, Clear)",
+        "Cragravation (Day)"
+      ]
+    },
+    "50": {
+      "monster_id": 50,
+      "name_en": "Nardragon",
+      "slug": "nardragon",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/nardragon?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": true,
+      "scout_locations": [
+        "Unshore (Day, Fog)"
+      ]
+    },
+    "51": {
+      "monster_id": 51,
+      "name_en": "Bullfinch",
+      "slug": "bullfinch",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/bullfinch?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "52": {
+      "monster_id": 52,
+      "name_en": "Pan piper",
+      "slug": "pan_piper",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/pan_piper?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": true,
+      "scout_locations": []
+    },
+    "53": {
+      "monster_id": 53,
+      "name_en": "Dancing flame",
+      "slug": "dancing_flame",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/dancing_flame?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": true,
+      "scout_locations": [
+        "Cragravation (Day)",
+        "Necropolis (Night)"
+      ]
+    },
+    "54": {
+      "monster_id": 54,
+      "name_en": "Headhunter",
+      "slug": "headhunter",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/headhunter?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Treepidation (Night, Clear)"
+      ]
+    },
+    "55": {
+      "monster_id": 55,
+      "name_en": "Demonrider",
+      "slug": "demonrider",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/demonrider?lang=en",
+      "scoutable": false,
+      "normal_synthesis": false,
+      "special_synthesis": true,
+      "scout_locations": []
+    },
+    "56": {
+      "monster_id": 56,
+      "name_en": "Shell slime",
+      "slug": "shell_slime",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/shell_slime?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Unshore (Day)"
+      ]
+    },
+    "57": {
+      "monster_id": 57,
+      "name_en": "Snapdragon",
+      "slug": "snapdragon",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/snapdragon?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": true,
+      "scout_locations": [
+        "Dark world (Any conditions)"
+      ]
+    },
+    "58": {
+      "monster_id": 58,
+      "name_en": "Wild boarfish",
+      "slug": "wild_boarfish",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/wild_boarfish?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Doubtback (Night, Rain)"
+      ]
+    },
+    "59": {
+      "monster_id": 59,
+      "name_en": "Snowbird",
+      "slug": "snowbird",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/snowbird?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": true,
+      "scout_locations": [
+        "Iceolation (Day, Clear)"
+      ]
+    },
+    "60": {
+      "monster_id": 60,
+      "name_en": "Dingaling",
+      "slug": "dingaling",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/dingaling?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "61": {
+      "monster_id": 61,
+      "name_en": "Lump wizard",
+      "slug": "lump_wizard",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/lump_wizard?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "62": {
+      "monster_id": 62,
+      "name_en": "Drohl diabolist",
+      "slug": "drohl_diabolist",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/drohl_diabolist?lang=en",
+      "scoutable": false,
+      "normal_synthesis": false,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "63": {
+      "monster_id": 63,
+      "name_en": "Mottle slime",
+      "slug": "mottle_slime",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/mottle_slime?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "64": {
+      "monster_id": 64,
+      "name_en": "Jailcat",
+      "slug": "jailcat",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/jailcat?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Iceolation (Day)",
+        "Iceolation (Night)"
+      ]
+    },
+    "65": {
+      "monster_id": 65,
+      "name_en": "Spiked hare",
+      "slug": "spiked_hare",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/spiked_hare?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Iceolation (Day)",
+        "Iceolation (Night)",
+        "Dark world (Any conditions)"
+      ]
+    },
+    "66": {
+      "monster_id": 66,
+      "name_en": "Chainine",
+      "slug": "chainine",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/chainine?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "67": {
+      "monster_id": 67,
+      "name_en": "Goodybag",
+      "slug": "goodybag",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/goodybag?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": true,
+      "scout_locations": [
+        "Bemusoleum (Night)",
+        "Dark world (Any conditions)"
+      ]
+    },
+    "68": {
+      "monster_id": 68,
+      "name_en": "Imp",
+      "slug": "imp",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/imp?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Iceolation (Night)",
+        "Dark world (Any conditions)"
+      ]
+    },
+    "69": {
+      "monster_id": 69,
+      "name_en": "Skipper",
+      "slug": "skipper",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/skipper?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "70": {
+      "monster_id": 70,
+      "name_en": "Snail slime",
+      "slug": "snail_slime",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/snail_slime?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Unshore (Day)"
+      ]
+    },
+    "71": {
+      "monster_id": 71,
+      "name_en": "Green dragon",
+      "slug": "green_dragon",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/green_dragon?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Unshore (Day, Fog)"
+      ]
+    },
+    "72": {
+      "monster_id": 72,
+      "name_en": "Teeny sanguini",
+      "slug": "teeny_sanguini",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/teeny_sanguini?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Dark world (Any conditions)"
+      ]
+    },
+    "73": {
+      "monster_id": 73,
+      "name_en": "Cannibox",
+      "slug": "cannibox",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/cannibox?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": true,
+      "scout_locations": [
+        "Bemusoleum (Day)"
+      ]
+    },
+    "74": {
+      "monster_id": 74,
+      "name_en": "Dancing devil",
+      "slug": "dancing_devil",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/dancing_devil?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Cragravation (Day)"
+      ]
+    },
+    "75": {
+      "monster_id": 75,
+      "name_en": "Hellhound",
+      "slug": "hellhound",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/hellhound?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "76": {
+      "monster_id": 76,
+      "name_en": "Snowmangler",
+      "slug": "snowmangler",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/snowmangler?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "77": {
+      "monster_id": 77,
+      "name_en": "Skelegon",
+      "slug": "skelegon",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/skelegon?lang=en",
+      "scoutable": true,
+      "normal_synthesis": false,
+      "special_synthesis": true,
+      "scout_locations": [
+        "Cragravation (Day, Rain)",
+        "Cragravation (Night, Rain)",
+        "Bemusoleum (Night)"
+      ]
+    },
+    "78": {
+      "monster_id": 78,
+      "name_en": "Boring bug",
+      "slug": "boring_bug",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/boring_bug?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "79": {
+      "monster_id": 79,
+      "name_en": "Night emperor",
+      "slug": "night_emperor",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/night_emperor?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Cragravation (Day)"
+      ]
+    },
+    "80": {
+      "monster_id": 80,
+      "name_en": "Shadow",
+      "slug": "shadow",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/shadow?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Iceolation (Night)",
+        "Cragravation (Day)"
+      ]
+    },
+    "81": {
+      "monster_id": 81,
+      "name_en": "Dessert demon",
+      "slug": "dessert_demon",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/dessert_demon?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": true,
+      "scout_locations": []
+    },
+    "82": {
+      "monster_id": 82,
+      "name_en": "Flyguy",
+      "slug": "flyguy",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/flyguy?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "83": {
+      "monster_id": 83,
+      "name_en": "Slime knight",
+      "slug": "slime_knight",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/slime_knight?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "84": {
+      "monster_id": 84,
+      "name_en": "Dragurn",
+      "slug": "dragurn",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/dragurn?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": true,
+      "scout_locations": []
+    },
+    "85": {
+      "monster_id": 85,
+      "name_en": "Crabid",
+      "slug": "crabid",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/crabid?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Unshore (Day)"
+      ]
+    },
+    "86": {
+      "monster_id": 86,
+      "name_en": "Fencing fox",
+      "slug": "fencing_fox",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/fencing_fox?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "87": {
+      "monster_id": 87,
+      "name_en": "Anchorman",
+      "slug": "anchorman",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/anchorman?lang=en",
+      "scoutable": false,
+      "normal_synthesis": false,
+      "special_synthesis": true,
+      "scout_locations": []
+    },
+    "88": {
+      "monster_id": 88,
+      "name_en": "Lesser demon",
+      "slug": "lesser_demon",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/lesser_demon?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Cragravation (Day, Rain)",
+        "Cragravation (Night, Rain)"
+      ]
+    },
+    "89": {
+      "monster_id": 89,
+      "name_en": "Hyper Heyedra",
+      "slug": "hyper_heyedra",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/hyper_heyedra?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "90": {
+      "monster_id": 90,
+      "name_en": "Metal slime",
+      "slug": "metal_slime",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/metal_slime?lang=en",
+      "scoutable": true,
+      "normal_synthesis": false,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Treepidation (Day)",
+        "Treepidation (Night)",
+        "Doubtback (Day)",
+        "Iceolation (Day)",
+        "Iceolation (Night)",
+        "Cragravation (Day)",
+        "Unshore (Day)"
+      ]
+    },
+    "91": {
+      "monster_id": 91,
+      "name_en": "Rubble slime",
+      "slug": "rubble_slime",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/rubble_slime?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Cragravation (Day)",
+        "Bemusoleum (Day)"
+      ]
+    },
+    "92": {
+      "monster_id": 92,
+      "name_en": "Gasbagon",
+      "slug": "gasbagon",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/gasbagon?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Cragravation (Day, Rain)",
+        "Cragravation (Night, Rain)"
+      ]
+    },
+    "93": {
+      "monster_id": 93,
+      "name_en": "Scorpion",
+      "slug": "scorpion",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/scorpion?lang=en",
+      "scoutable": true,
+      "normal_synthesis": false,
+      "special_synthesis": true,
+      "scout_locations": [
+        "Cragravation (Day)"
+      ]
+    },
+    "94": {
+      "monster_id": 94,
+      "name_en": "Orc",
+      "slug": "orc",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/orc?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "95": {
+      "monster_id": 95,
+      "name_en": "Gold golem",
+      "slug": "gold_golem",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/gold_golem?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": true,
+      "scout_locations": []
+    },
+    "96": {
+      "monster_id": 96,
+      "name_en": "Cross eye",
+      "slug": "cross_eye",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/cross_eye?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "97": {
+      "monster_id": 97,
+      "name_en": "Skeleton",
+      "slug": "skeleton",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/skeleton?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Unshore (Day, Fog)",
+        "Bemusoleum (Night, Rain)"
+      ]
+    },
+    "98": {
+      "monster_id": 98,
+      "name_en": "Angel slime",
+      "slug": "angel_slime",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/angel_slime?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Cragravation (Day)"
+      ]
+    },
+    "99": {
+      "monster_id": 99,
+      "name_en": "Seasaur",
+      "slug": "seasaur",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/seasaur?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Unshore (Day, Fog)"
+      ]
+    },
+    "100": {
+      "monster_id": 100,
+      "name_en": "Eveel",
+      "slug": "eveel",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/eveel?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Unshore (Night, Fog)"
+      ]
+    },
+    "101": {
+      "monster_id": 101,
+      "name_en": "Weartiger",
+      "slug": "weartiger",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/weartiger?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "102": {
+      "monster_id": 102,
+      "name_en": "Mecha-mynah",
+      "slug": "mechamynah",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/mechamynah?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Cragravation (Day)",
+        "Bemusoleum (Night)"
+      ]
+    },
+    "103": {
+      "monster_id": 103,
+      "name_en": "Silvapithecus",
+      "slug": "silvapithecus",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/silvapithecus?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Cragravation (Day)",
+        "Necropolis (Day)"
+      ]
+    },
+    "104": {
+      "monster_id": 104,
+      "name_en": "Phantom fencer",
+      "slug": "phantom_fencer",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/phantom_fencer?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Unshore (Day, Fog)",
+        "Bemusoleum (Night)"
+      ]
+    },
+    "105": {
+      "monster_id": 105,
+      "name_en": "Behemoth slime",
+      "slug": "behemoth_slime",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/behemoth_slime?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Dark world (Any conditions)"
+      ]
+    },
+    "106": {
+      "monster_id": 106,
+      "name_en": "Red dragon",
+      "slug": "red_dragon",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/red_dragon?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": true,
+      "scout_locations": [
+        "Dark world (Any conditions)"
+      ]
+    },
+    "107": {
+      "monster_id": 107,
+      "name_en": "Khalamari kid",
+      "slug": "khalamari_kid",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/khalamari_kid?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Unshore (Day)"
+      ]
+    },
+    "108": {
+      "monster_id": 108,
+      "name_en": "Brownie",
+      "slug": "brownie",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/brownie?lang=en",
+      "scoutable": false,
+      "normal_synthesis": false,
+      "special_synthesis": true,
+      "scout_locations": []
+    },
+    "109": {
+      "monster_id": 109,
+      "name_en": "Firn fiend",
+      "slug": "firn_fiend",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/firn_fiend?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": true,
+      "scout_locations": [
+        "Cragravation (Day, Rain)",
+        "Cragravation (Night, Rain)"
+      ]
+    },
+    "110": {
+      "monster_id": 110,
+      "name_en": "Wrecktor",
+      "slug": "wrecktor",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/wrecktor?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "111": {
+      "monster_id": 111,
+      "name_en": "Metal slime knight",
+      "slug": "metal_slime_knight",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/metal_slime_knight?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "112": {
+      "monster_id": 112,
+      "name_en": "Beshemoth slime",
+      "slug": "beshemoth_slime",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/beshemoth_slime?lang=en",
+      "scoutable": false,
+      "normal_synthesis": false,
+      "special_synthesis": true,
+      "scout_locations": []
+    },
+    "113": {
+      "monster_id": 113,
+      "name_en": "Wormonger",
+      "slug": "wormonger",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/wormonger?lang=en",
+      "scoutable": false,
+      "normal_synthesis": false,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "114": {
+      "monster_id": 114,
+      "name_en": "Slime X",
+      "slug": "slime_x",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/slime_x?lang=en",
+      "scoutable": false,
+      "normal_synthesis": false,
+      "special_synthesis": true,
+      "scout_locations": []
+    },
+    "115": {
+      "monster_id": 115,
+      "name_en": "Chimaera X",
+      "slug": "chimaera_x",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/chimaera_x?lang=en",
+      "scoutable": false,
+      "normal_synthesis": false,
+      "special_synthesis": true,
+      "scout_locations": []
+    },
+    "116": {
+      "monster_id": 116,
+      "name_en": "Goodybag X",
+      "slug": "goodybag_x",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/goodybag_x?lang=en",
+      "scoutable": false,
+      "normal_synthesis": false,
+      "special_synthesis": true,
+      "scout_locations": []
+    },
+    "117": {
+      "monster_id": 117,
+      "name_en": "Conklave X",
+      "slug": "conklave_x",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/conklave_x?lang=en",
+      "scoutable": false,
+      "normal_synthesis": false,
+      "special_synthesis": true,
+      "scout_locations": []
+    },
+    "118": {
+      "monster_id": 118,
+      "name_en": "Hacksaurus",
+      "slug": "hacksaurus",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/hacksaurus?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Bemusoleum (Day)"
+      ]
+    },
+    "119": {
+      "monster_id": 119,
+      "name_en": "Hades condor",
+      "slug": "hades_condor",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/hades_condor?lang=en",
+      "scoutable": true,
+      "normal_synthesis": false,
+      "special_synthesis": true,
+      "scout_locations": [
+        "Doubtback (Day, Clear)",
+        "Cragravation (Day)",
+        "Cragravation (Day)"
+      ]
+    },
+    "120": {
+      "monster_id": 120,
+      "name_en": "Bodkin archer",
+      "slug": "bodkin_archer",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/bodkin_archer?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Bemusoleum (Rain)"
+      ]
+    },
+    "121": {
+      "monster_id": 121,
+      "name_en": "Puppeteer",
+      "slug": "puppeteer",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/puppeteer?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Dark world (Any conditions)"
+      ]
+    },
+    "122": {
+      "monster_id": 122,
+      "name_en": "Dangler fish",
+      "slug": "dangler_fish",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/dangler_fish?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Unshore (Day)"
+      ]
+    },
+    "123": {
+      "monster_id": 123,
+      "name_en": "Bona constrictor",
+      "slug": "bona_constrictor",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/bona_constrictor?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Unshore (Day)",
+        "Bemusoleum (Day)"
+      ]
+    },
+    "124": {
+      "monster_id": 124,
+      "name_en": "Dragon slime",
+      "slug": "dragon_slime",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/dragon_slime?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Cragravation (Day)"
+      ]
+    },
+    "125": {
+      "monster_id": 125,
+      "name_en": "Aquestrian gladiator",
+      "slug": "aquestrian_gladiator",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/aquestrian_gladiator?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "126": {
+      "monster_id": 126,
+      "name_en": "Great sabrecat",
+      "slug": "great_sabrecat",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/great_sabrecat?lang=en",
+      "scoutable": true,
+      "normal_synthesis": false,
+      "special_synthesis": true,
+      "scout_locations": [
+        "Treepidation (Night, Clear)",
+        "Dark world (Any conditions)"
+      ]
+    },
+    "127": {
+      "monster_id": 127,
+      "name_en": "Gargoyle",
+      "slug": "gargoyle",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/gargoyle?lang=en",
+      "scoutable": true,
+      "normal_synthesis": false,
+      "special_synthesis": true,
+      "scout_locations": [
+        "Bemusoleum (Day)",
+        "Necropolis (Day)"
+      ]
+    },
+    "128": {
+      "monster_id": 128,
+      "name_en": "King kelp",
+      "slug": "king_kelp",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/king_kelp?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Unshore (Day)"
+      ]
+    },
+    "129": {
+      "monster_id": 129,
+      "name_en": "Great dracky",
+      "slug": "great_dracky",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/great_dracky?lang=en",
+      "scoutable": true,
+      "normal_synthesis": false,
+      "special_synthesis": true,
+      "scout_locations": [
+        "Doubtback (Day, Clear)"
+      ]
+    },
+    "130": {
+      "monster_id": 130,
+      "name_en": "Walking corpse",
+      "slug": "walking_corpse",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/walking_corpse?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Bemusoleum (Night)"
+      ]
+    },
+    "131": {
+      "monster_id": 131,
+      "name_en": "Slime stack",
+      "slug": "slime_stack",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/slime_stack?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Dark world (Any conditions)"
+      ]
+    }
+  }
+}
