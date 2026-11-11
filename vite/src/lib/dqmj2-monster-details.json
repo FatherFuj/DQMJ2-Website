@@ -1,6 +1,6 @@
 {
   "source": "https://rebjorn-wiki.com/dqmj2/monsters?lang=en",
-  "record_count": 131,
+  "record_count": 138,
   "records": {
     "1": {
       "monster_id": 1,
@@ -1520,6 +1520,85 @@
       "normal_synthesis": true,
       "special_synthesis": false,
       "scout_locations": [
+        "Dark world (Any conditions)"
+      ]
+    },
+    "132": {
+      "monster_id": 132,
+      "name_en": "Sea dragon",
+      "slug": "sea_dragon",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/sea_dragon?lang=en",
+      "scoutable": false,
+      "normal_synthesis": false,
+      "special_synthesis": true,
+      "scout_locations": []
+    },
+    "133": {
+      "monster_id": 133,
+      "name_en": "Treeface",
+      "slug": "treeface",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/treeface?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": true,
+      "scout_locations": []
+    },
+    "134": {
+      "monster_id": 134,
+      "name_en": "Merman",
+      "slug": "merman",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/merman?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Unshore (Day)"
+      ]
+    },
+    "135": {
+      "monster_id": 135,
+      "name_en": "Malevolamp",
+      "slug": "malevolamp",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/malevolamp?lang=en",
+      "scoutable": false,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": []
+    },
+    "136": {
+      "monster_id": 136,
+      "name_en": "Octavian sentry",
+      "slug": "octavian_sentry",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/octavian_sentry?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Unshore (Day)"
+      ]
+    },
+    "137": {
+      "monster_id": 137,
+      "name_en": "Restless armour",
+      "slug": "restless_armour",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/restless_armour?lang=en",
+      "scoutable": true,
+      "normal_synthesis": true,
+      "special_synthesis": false,
+      "scout_locations": [
+        "Bemusoleum (Day)"
+      ]
+    },
+    "138": {
+      "monster_id": 138,
+      "name_en": "King slime",
+      "slug": "king_slime",
+      "source_url": "https://rebjorn-wiki.com/dqmj2/monsters/king_slime?lang=en",
+      "scoutable": true,
+      "normal_synthesis": false,
+      "special_synthesis": true,
+      "scout_locations": [
+        "Albatross (Night)",
         "Dark world (Any conditions)"
       ]
     }
